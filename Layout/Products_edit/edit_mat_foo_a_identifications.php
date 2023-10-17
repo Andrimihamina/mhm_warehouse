@@ -1,0 +1,29 @@
+<!-- HEAD -->
+<?php
+ $B_head ="Foods";
+ $titre = "Products";
+ $link_2 = "../../Layout/Products_edit/edit.php";
+ $link_3 = "../../Layout/Products_edit/edit_mat_foo.php";
+ $title_2 = "Edit Products";
+ $title_3 = "Edit Materials";
+ $title_4 = "Edit Identifications";
+ $title ="Title/title_four.php";
+ $section = "section CONS MED";
+ require_once ("../Layout/head.php");
+ ?>
+
+<?php
+    // LINK EDIT
+    $link_edit = "edit_mat_foo_id.php";
+      $id ="id_code_mat_foo";
+      $id_id ="id_mat_foo";
+    // LINK IDENTIFICATION
+    $link_identif ="edit_mat_foo_a_identifications_edit.php";
+  ?>
+
+  <!-- BODY -->
+  <?php require_once ("layout_mat/a_identifications.php");?>
+   
+<!-- FOOTER -->
+<?php require_once ("../Layout/footer.php");?>
+
