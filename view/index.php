@@ -3,8 +3,8 @@
     //ON INCLU LE HEADER
     require_once ("../html/header/header_login.php");
 
-    //ON IMPLIMANT LE DINAMIQUE HEADER
-    include_once("../php/header/view_without_login.php");
+    //ON IMPLIMANT LE DINAMIQUE HEADER 
+    include_once("../env/dns_warehouse.php");
 
     //ON INCLU LE HEADER AND SIDBAR
     include_once ("../html/sidebar/sidebar/view/sidebar.php");
