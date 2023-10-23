@@ -26,7 +26,7 @@ require_once ("../Layout/head.php");
         </div>
       </div> 
     </div>
-
+ 
       
       <div class="col-md-8">
           <p class="card-text">

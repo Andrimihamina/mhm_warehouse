@@ -75,7 +75,6 @@
 
             $image = $affiche_name["med_img"];
 
-            echo "../../../warehouse_img/img/med_img/$image";
             $link_image =  "../../../warehouse_img/img/med_img/" . "$image";
 
         }//CONSUMABLES

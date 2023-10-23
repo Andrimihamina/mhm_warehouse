@@ -19,12 +19,9 @@
 <section class="section dashboard">
   <div class="row">
     <div class="col-lg-12">
-
-      <?php        
-        //ON INCLU ADD NAME MEDICINE 1
+      <?php 
         include_once ("view.php"); 
       ?>
-
     </div>
   </div>
 </section>
