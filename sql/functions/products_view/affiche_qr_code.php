@@ -7,7 +7,7 @@ if($_GET['idProduit'] ==""){echo "Not found"; }else{
     $id_med = substr($id_abrev, 0, 3);
     //ID CONS
     $id_cons = substr($id_abrev, 0, 7);
-
+ 
     // cat_qr_code
         /*==================MEDICINE=====================*/
         include_once("cat_qr_code/medicines.php");

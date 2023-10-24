@@ -10,7 +10,7 @@ $section = "section Settings";
 require_once ("../Layout/head.php");
 
 require_once ("../../sql/functions/products_view/affiche_qr_code.php");
-?>  
+?>   
 
 <?php
 if($id_resp == 1 or $id_resp == 4){
