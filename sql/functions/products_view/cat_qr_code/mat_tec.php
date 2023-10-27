@@ -2,27 +2,30 @@
         if($id_cons == "MAT-TEC"){
 
             $id_abrev = $_GET['idProduit'];
-
-            // CATEGORIES
             $categories = "Technicals Materials";
            
             // DESCRIPTIONS
             $sql_affiche_name = "SELECT * FROM `mat_tec_id` WHERE `id_code_mat_tec` = '$id_abrev'";
             $requete_affiche_name= $db->query($sql_affiche_name);
             $affiche_name= $requete_affiche_name->fetch();   
-                $Descriptions = $affiche_name["Descriptions"];
+                
                 $id_mat_tec = $affiche_name["id"];
+                $id = $id_mat_tec;
+                $Descriptions = $affiche_name["Descriptions"];
+                $id_code = $affiche_name["id_code_mat_tec"];
 
             // USED FOR
             $sql_affiche_used_for = "SELECT * FROM `mat_tec_used` WHERE `id_mat_tec` = '$id_mat_tec'";
             $requete_affiche_used_for = $db->query($sql_affiche_used_for);
             $affiche_used_for= $requete_affiche_used_for->fetch();
+
                 $Used_for = $affiche_used_for["used_for"];
           
             // PRICES
             $sql_affiche_price = "SELECT * FROM `mat_tec_price` WHERE `id_mat_tec` = '$id_mat_tec'";
             $requete_affiche_price  = $db->query($sql_affiche_price );
             $affiche_price = $requete_affiche_price ->fetch();   
+
                 $Prices_quantity = $affiche_price ["price_quantity"];
                 $Prices_Box_name = $affiche_price ["box_name"];
                 $Prices = $affiche_price ["price"];
@@ -31,13 +34,47 @@
             $sql_affiche_location= "SELECT * FROM `mat_tec_location` WHERE `id_mat_tec` = '$id_mat_tec'";
             $requete_affiche_location = $db->query($sql_affiche_location );
             $affiche_location = $requete_affiche_location ->fetch();  
+
                 $Location = $affiche_location ["mat_tec_loc"];
+
+                // MODIF LOCA
+                    // MAIN
+                    $link_man_loc_1 = "locations_mat_tec/locations/list_locations_1.php"; $link_man_loc_2 = "locations_mat_tec/locations/list_locations_2.php";
+                    $id_locations_0 = $affiche_location["location"];
+                    if($id_locations_0 !="" &&  $id_locations_0 != 0){
+                        $sql_edit_locations_0 = "SELECT * FROM `mat_location_tec` WHERE `id_location` = $id_locations_0";
+                        $requete_edit_locations_0= $db->query($sql_edit_locations_0);
+                        $edits_locations_0 = $requete_edit_locations_0 -> fetch();
+                        $location_00 = $edits_locations_0["location_descriptions"];
+                    }else{$location_00 = "Choose...";}
+                    // SUB
+                    $link_sub_loc_1 = "locations_mat_tec/sublocations/list_sublocations_1.php"; $link_sub_loc_2 = "locations_mat_tec/sublocations/list_sublocations_2.php";
+                    $id_locations_1 = $affiche_location["sub_location"];
+                    if($id_locations_1 !="" &&  $id_locations_1 != 0){
+                        $sql_edit_locations_1 = "SELECT * FROM `mat_sublocation_tec` WHERE `id_sub_loc` = $id_locations_1";
+                        $requete_edit_locations_1 = $db->query($sql_edit_locations_1);
+                        $edits_locations_1 = $requete_edit_locations_1 -> fetch();
+                        $location_11 = $edits_locations_1["sublocation_descriptions"];
+                    }else{$location_11 = "Choose...";}
+                    
+                    // SUB SUB
+                    $link_sub_sub_loc_1 = "locations_mat_tec/subsublocations/list_subsublocations_1.php" ; $link_sub_sub_loc_2 ="locations_mat_tec/subsublocations/list_subsublocations_2.php";
+                    $id_locations_2 = $affiche_location["sub_sub_location"];
+                    if($id_locations_2 !="" And  $id_locations_2 != 0){
+                        $sql_edit_locations_2 = "SELECT * FROM `mat_subsublocation_tec` WHERE `id_subsubloc` = $id_locations_2";
+                        $requete_edit_locations_2 = $db->query($sql_edit_locations_2);
+                        $edits_locations_2 = $requete_edit_locations_2 -> fetch();
+                        $location_22 = $edits_locations_2["subsublocation_descriptions"];
+                    }else{$location_22 = "Choose...";}
 
             // QT STOCK
             $sql_affiche_qt = "SELECT * FROM `mat_tec_quantity` WHERE `id_mat_tec` = '$id_mat_tec'";
             $requete_affiche_qt = $db->query($sql_affiche_qt );
             $affiche_qt = $requete_affiche_qt ->fetch();   
+
                 $Qt = $affiche_qt ["stock"];
+                $quantity_minimal = $affiche_qt ["quantity_minimal"];
+                $quantity_avarage = $affiche_qt ["quantity_avarage"];
 
             // IMAGE
             $image = $affiche_name["mat_tec_image"];

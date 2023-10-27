@@ -27,9 +27,10 @@
                         ?>
                           <th scope="row"><?= strip_tags($service["id_service_resp"])?></th>
                           <td><?=$services_affiche?></td>
-                          <td> <div class="form-check"><input class="form-check-input" type="checkbox" name="<?=$service["1"];?>" value="1"  <?php $check=$service["1"];if($check=="1"){echo"checked";}?> ></div></td>
-                          <td> <div class="form-check"><input class="form-check-input" type="checkbox" name="<?=$service["2"];?>" value="1"  <?php $check=$service["2"];if($check=="1"){echo"checked";}?> ></div></td>
-                          <td> <div class="form-check"><input class="form-check-input" type="checkbox" name="<?=$service["3"];?>" value="1"  <?php $check=$service["3"];if($check=="1"){echo"checked";}?> ></div></td>
+                          <td> <div class="form-check"><input class="form-check-input" type="checkbox" name="<?=1?>-<?=$id_service;?>" value="1"  <?php $check=$service["1"];if($check=="1"){echo"checked";}?> ></div></td>
+                          <td> <div class="form-check"><input class="form-check-input" type="checkbox" name="<?=2?>-<?=$id_service;?>" value="1"  <?php $check=$service["2"];if($check=="1"){echo"checked";}?> ></div></td>
+                          <td> <div class="form-check"><input class="form-check-input" type="checkbox" name="<?=3?>-<?=$id_service;?>" value="1"  <?php $check=$service["3"];if($check=="1"){echo"checked";}?> ></div></td>
+                          <td><button type="submit" class="btn btn-info" name="<?=$id_service?>" value="edit"><i class="ri-edit-box-line"></i></button></td>
                       </tr>
                     <?php endforeach;?>
                   </tbody>
@@ -49,8 +50,7 @@
                     <th scope="col">Nurse Two</th>
                     <th scope="col">Technical</th>
                     <th scope="col">Logistic</th>
-                    <th scope="col">IT</th>
-                    <th scope="col">Comm</th>
+                    <th scope="col">ITC</th>
                   </tr>
                 </thead>
                   <tbody>
@@ -62,12 +62,13 @@
                         ?>
                           <th scope="row"><?= strip_tags($service["id_service_resp"])?></th>
                           <td><?=$services_affiche?></td>
-                          <td> <div class="form-check"><input class="form-check-input" type="checkbox" name="<?=$service["1"];?>" value="1"  <?php $check=$service["1"];if($check=="1"){echo"checked";}?> ></div></td>
-                          <td> <div class="form-check"><input class="form-check-input" type="checkbox" name="<?=$service["2"];?>" value="1"  <?php $check=$service["2"];if($check=="1"){echo"checked";}?> ></div></td>
-                          <td> <div class="form-check"><input class="form-check-input" type="checkbox" name="<?=$service["3"];?>" value="1"  <?php $check=$service["3"];if($check=="1"){echo"checked";}?> ></div></td>
-                          <td> <div class="form-check"><input class="form-check-input" type="checkbox" name="<?=$service["2"];?>" value="1"  <?php $check=$service["2"];if($check=="1"){echo"checked";}?> ></div></td>
-                          <td> <div class="form-check"><input class="form-check-input" type="checkbox" name="<?=$service["3"];?>" value="1"  <?php $check=$service["3"];if($check=="1"){echo"checked";}?> ></div></td>
-                        </tr>
+                          <td> <div class="form-check"><input class="form-check-input" type="checkbox" name="<?=4?>-<?=$id_service;?>" value="1"  <?php $check=$service["4"];if($check=="1"){echo"checked";}?> ></div></td>
+                          <td> <div class="form-check"><input class="form-check-input" type="checkbox" name="<?=10?>-<?=$id_service;?>" value="1"  <?php $check=$service["10"];if($check=="1"){echo"checked";}?> ></div></td>
+                          <td> <div class="form-check"><input class="form-check-input" type="checkbox" name="<?=11?>-<?=$id_service;?>" value="1"  <?php $check=$service["11"];if($check=="1"){echo"checked";}?> ></div></td>
+                          <td> <div class="form-check"><input class="form-check-input" type="checkbox" name="<?=12?>-<?=$id_service;?>" value="1"  <?php $check=$service["12"];if($check=="1"){echo"checked";}?> ></div></td>
+                          <td> <div class="form-check"><input class="form-check-input" type="checkbox" name="<?=44?>-<?=$id_service;?>" value="1"  <?php $check=$service["44"];if($check=="1"){echo"checked";}?> ></div></td>
+                          <td><button type="submit" class="btn btn-info" name="<?=$id_service?>" value="edit"><i class="ri-edit-box-line"></i></button></td>
+                       </tr>
                     <?php endforeach;?>
                   </tbody>
               </table>

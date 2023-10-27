@@ -13,7 +13,7 @@
                 $Descriptions = $affiche_name["Descriptions"];
                 $id_code = $affiche_name["id_code_med"];
 
-            // USED FOR
+            // USED FOR 
             $sql_affiche_used_for = "SELECT * FROM `medicine_classification` WHERE `id_med` = '$id_med'";
                 $requete_affiche_used_for = $db->query($sql_affiche_used_for);
                 $affiche_used_for= $requete_affiche_used_for->fetch();

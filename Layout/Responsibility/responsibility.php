@@ -25,6 +25,7 @@
             <button class="nav-link" id="v-pills-technicals-tab" data-bs-toggle="pill" data-bs-target="#v-pills-technicals" type="button" role="tab" aria-controls="v-pills-technicals" aria-selected="false">Technicals</button>
           </div>
 
+          
           <div class="tab-content" id="v-pills-tabContent">
             <!-- OVERVIEW -->
             <div class="tab-pane fade show active" id="v-pills-overview" role="tabpanel" aria-labelledby="v-pills-overview-tab">
@@ -35,10 +36,13 @@
             </div>
             <!-- SERVICE ADMIN/WAREHOUSE -->
             <div class="tab-pane fade" id="v-pills-admin_warehouse" role="tabpanel" aria-labelledby="v-pills-admin_warehouse-tab">
+              
                 <?php 
-                    include_once("../../sql/functions/services_responsibility/service_responsibility.php");
-                    include_once("../../Layout/Responsibility/items/admin_warehouse.php");
+                  
+                  include_once("../../sql/functions/services_responsibility/service_responsibility.php");
+                  include_once("../../Layout/Responsibility/items/admin_warehouse.php");
                 ?>
+             
             </div>
             <!-- SERVICE MEDICAL -->
             <div class="tab-pane fade" id="v-pills-medical" role="tabpanel" aria-labelledby="v-pills-medical-tab">
@@ -70,6 +74,7 @@
                     include_once("../../Layout/Responsibility/items/technicals.php");
                 ?>
             </div>
+            
           </div>
         </div>
       </div>

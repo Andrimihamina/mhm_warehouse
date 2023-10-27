@@ -55,7 +55,7 @@ if($id_resp == 1 or $id_resp == 4){
                 <input type="hidden"  name="categories" class="form-control" value="<?=$categories?>">
                 <input type="hidden"  name="id_code" class="form-control" value="<?=$id_code?>">
 
-              <p class="mb-0"><?=$Location?></p>
+              <p class="mb-0"><?=$Location?></p> 
                 <!-- EDIT LOCATION -->
                 <div class="col-md-16"><?php include("../../sql/list/$link_man_loc_1");?><select name="location_0"  id="inputState" class="form-select"><option selected value="<?=$id_locations_0?>"><?=$location_00?></option><option>Choose...</option><?php include("../../sql/list/$link_man_loc_2");?></select></div>
                 <div class="col-md-16"><?php include("../../sql/list/$link_sub_loc_1");?><select name="location_1"  id="inputState" class="form-select"><option selected value="<?=$id_locations_1?>"><?=$location_11?></option><option>Choose...</option><?php include("../../sql/list/$link_sub_loc_2");?></select></div>
