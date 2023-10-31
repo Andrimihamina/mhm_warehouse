@@ -4,7 +4,8 @@
       <h5 class="card-title">Actives Medical</h5>
 
         <ol class="list-group list-group-numbered">
-          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">ULM</div></a></div><span class="badge bg-primary rounded-pill">25</span></li>
+          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="all.php"><div class="fw-bold">All</div></a></div><span class="badge bg-primary rounded-pill">25</span></li>
+          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="ulm.php"><div class="fw-bold">ULM</div></a></div><span class="badge bg-primary rounded-pill">25</span></li>
           <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">MidMob</div></a></div><span class="badge bg-primary rounded-pill">25</span></li>
           <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">DentMob</div></a></div><span class="badge bg-primary rounded-pill">25</span></li>
           <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Ambulance 1</div></a></div><span class="badge bg-primary rounded-pill">25</span></li>

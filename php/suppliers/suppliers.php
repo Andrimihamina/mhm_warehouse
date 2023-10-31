@@ -59,7 +59,7 @@ if(!empty($_POST)){
 
             //On va stocke dans $_SESSION les inforamations de l'utilisateu
 
-            // header("Location: ../suppliers_1");
+            header("Location: ../../Layout/Purchases/suppliers.php");
     }
 }
 }

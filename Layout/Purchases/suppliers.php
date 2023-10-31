@@ -9,6 +9,8 @@
 ?>  
 
 <!-- BODY -->
+
+<?php require_once ("../../php/suppliers/suppliers.php");?>
 <div class="row">
   <div class="col-lg-12">
     <?php
@@ -68,7 +70,6 @@
 
           <!-- SECOND VIEW -->
           <div class="tab-pane fade profile-edit pt-3" id="profile-edit">
-            <form>
               <div class="tab-pane fade show active profile-overview" id="profile-overview">
                 <div class="col-12">
                   <div class="card recent-sales overflow-auto">
@@ -112,7 +113,6 @@
                   </div>
                 </div>
               </div>
-            </form>
           </div>
 
           <!-- THERED VEW -->
@@ -121,7 +121,7 @@
               <div class="card recent-sales overflow-auto">
                 <div class="card-body">
                   <h5 class="card-title">Suppliers<span>| All</span></h5>
-                    <form method="post">
+                    <form method="POST">
                       <div class="row mb-3">
                         <label for="currentPassword" class="col-md-4 col-lg-3 col-form-label">Categories</label>
                         <div class="col-md-8 col-lg-9"><input type="text" name="sup_categories" class="form-control" id="currentPassword"></div>
