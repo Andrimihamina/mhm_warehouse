@@ -23,6 +23,7 @@
         include_once ("../../sql/Flux/inputs/flux_in.php");
         include_once ("../../Layout/Flux/inputs/register.php");
       ?>
+
     </div>
   </section>
 

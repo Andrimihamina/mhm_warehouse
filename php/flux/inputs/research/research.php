@@ -55,5 +55,5 @@ foreach( $_POST as $cle =>$value ){
     // MEDICINE
     include_once("categories/medicines.php");
     }
-}
+} 
 ?>

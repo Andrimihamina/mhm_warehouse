@@ -1,5 +1,5 @@
 <form method="post" action="../../php/flux/inputs/register/register.php" id="project"> 
-  <div class="col-lg-12">
+  <div class="col-lg-12"> 
       <!-- REGISTER -->
       <div class="card">
         <div class="card-body">

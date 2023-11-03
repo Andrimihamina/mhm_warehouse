@@ -1,4 +1,7 @@
 <?php
+    $id =  strip_tags($_POST["id"]);
+    $id_code =  strip_tags($_POST["id_code"]);
+
     if(!empty($_FILES)){
     $file_name = $_FILES["med_img"]["name"];
     $file_tmp_name = $_FILES["med_img"]["tmp_name"];
@@ -49,11 +52,11 @@
     switch($infos["mime"]){
         case "image/png":
             //On enregistre l'image
-            imagepng($nouvelleImage, __DIR__ . "../../../../../../warehouse_img/img/mat_tec_img/mat_tec-img-". $file_name);
+            imagepng($nouvelleImage, __DIR__ . "../../../../../../warehouse_img/img/med_img/medicine-img-". $id_code . $file_name);
             break;
         case "image/jpeg":
             //On enregistre l'image
-            imagejpeg($nouvelleImage, __DIR__ . "../../../../../../warehouse_img/img/mat_tec_img/mat_tec-img-". $file_name);
+            imagejpeg($nouvelleImage, __DIR__ . "../../../../../../warehouse_img/img/med_img/medicine-img-" . $id_code . $file_name);
             break;     
     }
     
@@ -62,4 +65,13 @@
     imagedestroy($nouvelleImage);
 }
 }
+
+// ID
+
+$file_name = "medicine-img-". $id_code . $file_name;
+require_once ("../../sql/functions/products_edit/medicals/medicines/img.php");
+
+// BACK
+    header("Location: ../../Layout/Products_view/Qr_code.php?idProduit=$id_code");
+
 ?>

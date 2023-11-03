@@ -23,7 +23,7 @@ require_once ("../../sql/functions/products_view/affiche_system.php");
         <img src="<?=$link_image;?>" class="img-fluid rounded-start" alt="IMG">
     
         <div class="pt-2">
-          <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-upload"></i></a>
+          <a href="../../Layout/Products_view/edit_img.php?idProduit=<?=$id_abrev?>" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-upload"></i></a>
           <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
         </div>
       </div>  

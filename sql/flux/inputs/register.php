@@ -25,8 +25,6 @@ if($quantity_added !="" AND $purchase_price !=""){
 
     $query_cons_foo = $db->prepare($sql);
     $query_cons_foo->execute();
-
-    // header("Location: ../../Layout/Flux/inputs_register.php");
 }
 
 ?>

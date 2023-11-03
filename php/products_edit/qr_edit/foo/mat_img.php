@@ -49,11 +49,11 @@
     switch($infos["mime"]){
         case "image/png":
             //On enregistre l'image
-            imagepng($nouvelleImage, __DIR__ . "../../../../../../warehouse_img/img/mat_tec_img/mat_tec-img-". $file_name);
+            imagepng($nouvelleImage, __DIR__ . "../../../../../../warehouse_img/img/mat_foo_img/mat_foo-img-".  $id_code .$file_name);
             break;
         case "image/jpeg":
             //On enregistre l'image
-            imagejpeg($nouvelleImage, __DIR__ . "../../../../../../warehouse_img/img/mat_tec_img/mat_tec-img-". $file_name);
+            imagejpeg($nouvelleImage, __DIR__ . "../../../../../../warehouse_img/img/mat_foo_img/mat_foo-img-".  $id_code . $file_name);
             break;     
     }
     
@@ -62,4 +62,11 @@
     imagedestroy($nouvelleImage);
 }
 }
+// ID
+
+$file_name = "mat_foo-img-". $id_code . $file_name;
+require_once ("../../sql/functions/products_edit/foods/materials/img.php");
+
+// BACK
+    header("Location: ../../Layout/Products_view/Qr_code.php?idProduit=$id_code");
 ?>
