@@ -5,6 +5,7 @@
 
         <ol class="list-group list-group-numbered">
           <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="../../Layout/Products_edit/edit_medicines_a_identifications.php"><div class="fw-bold">Identifications</div></a></li>
+          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="../../Layout/Products_edit/edit_medicines_i_quantity.php"><div class="fw-bold">Quantity</div></a></li>
           <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><div class="fw-bold">Used</div>
             <ul class="list-group list-group-flush">
               <a href="../../Layout/Products_edit/edit_medicines_b_used_applications.php"><li class="list-group-item d-flex justify-content-between align-items-start">Applications</li></a>
