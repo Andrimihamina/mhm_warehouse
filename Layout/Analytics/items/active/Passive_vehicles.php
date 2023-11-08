@@ -4,16 +4,16 @@
       <h5 class="card-title">Passive Vehicles</h5>
 
         <ol class="list-group list-group-numbered">
-          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Isuzu Bleu</div></a></div><span class="badge bg-primary rounded-pill">25</span></li>
-          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Isuzu Green</div></a></div><span class="badge bg-primary rounded-pill">25</span></li>
-          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Galopper</div></a></div><span class="badge bg-primary rounded-pill">25</span></li>
-          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Daihatsu</div></a></div><span class="badge bg-primary rounded-pill">25</span></li>
-          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Sprinter</div></a></div><span class="badge bg-primary rounded-pill">25</span></li>
-          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Starex</div></a></div><span class="badge bg-primary rounded-pill">25</span></li>
-          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Motorbike Honda</div></a></div><span class="badge bg-primary rounded-pill">25</span></li>
-          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Scooter Blue</div></a></div><span class="badge bg-primary rounded-pill">25</span></li>
-          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Land Cruser</div></a></div><span class="badge bg-primary rounded-pill">25</span></li>
-          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Others</div></a></div><span class="badge bg-primary rounded-pill">25</span></li>
+          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Isuzu Bleu</div></a>
+          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Isuzu Green</div></a>
+          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Galopper</div></a>
+          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Daihatsu</div></a>
+          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Sprinter</div></a>
+          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Starex</div></a>
+          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Motorbike Honda</div></a>
+          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Scooter Blue</div></a>
+          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Land Cruser</div></a>
+          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Others</div></a>
         </ol>
     </div>
   </div>
