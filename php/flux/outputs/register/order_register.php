@@ -13,8 +13,13 @@ if(!empty($_POST)){
             $ID_flux = str_replace("cancel-", "", $var_cancel);
         
             require_once ("../../../../sql/flux/outputs/cancel_item.php");
-
-            header("Location: ../../../../Layout/Flux/outputs_storage_principal.php");
+            
+            $id_code_1 = "SELECT * FROM `flux_out` WHERE `id_flux_out` = '$ID_flux'"; 
+            $id_code_2 = $db->query($id_code_1); 
+            $id_code_3 = $id_code_2->fetchAll(); 
+            $id_code = $id_code_3[0]["id_out"];
+            
+            header("Location: ../../../../Layout/Flux/outputs_storage_principal.php?id=$id_code");
             exit;
         }
 
