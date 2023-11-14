@@ -6,7 +6,7 @@
       include_once("../Layout/Side/purchase_warehouse.php");
 
       // PRODUCTS
-      include_once("../Layout/Side/products_users.php");
+      include_once("../Layout/Side/products_tec.php");
 
       // ANALITYCS
       include_once("../Layout/Side/analytics.php");

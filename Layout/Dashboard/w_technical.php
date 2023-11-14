@@ -41,7 +41,7 @@
       require ("../Dashboard/Items/right/admin_news.php");
     ?>
   </div>
- <!-- End Right side columns -->
+  <!-- End Right side columns -->
 
 </div>
 <!-- FOOTER -->
