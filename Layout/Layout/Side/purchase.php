@@ -32,5 +32,10 @@
             <i class="bi bi-circle"></i><span>Money flow sheet</span>
         </a>
         </li>
+        <li>
+        <a href="<?=$fuel?>">
+            <i class="bi bi-circle"></i><span>Fuel</span>
+        </a>
+        </li>
     </ul>
 </li>
