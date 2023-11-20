@@ -1,7 +1,7 @@
 <?php
 if(!empty($_FILES)){
-    $file_name = $_FILES["purchase_bill_scan"]["name"];
-    $file_tmp_name = $_FILES["purchase_bill_scan"]["tmp_name"];
+    $file_name = $_FILES["ticket_picture"]["name"];
+    $file_tmp_name = $_FILES["ticket_picture"]["tmp_name"];
     //Nom de l'image a manipuler
 
     $image = $file_tmp_name;
@@ -49,11 +49,11 @@ if(!empty($_FILES)){
     switch($infos["mime"]){
         case "image/png":
             //On enregistre l'image
-            imagepng($nouvelleImage, __DIR__ . "/../../../../warehouse_img/img/bill_img/bill-img-". $file_name);
+            imagepng($nouvelleImage, __DIR__ . "/../../../../warehouse_img/img/bill_img/fuel-img-". $file_name);
             break;
         case "image/jpeg":
             //On enregistre l'image
-            imagejpeg($nouvelleImage, __DIR__ . "/../../../../warehouse_img/img/bill_img/bill-img-". $file_name);
+            imagejpeg($nouvelleImage, __DIR__ . "/../../../../warehouse_img/img/bill_img/fuel-img-". $file_name);
             break;     
     }
     

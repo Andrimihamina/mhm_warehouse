@@ -37,7 +37,7 @@
         <!-- QUANTITY -->
         <td><?= $edit_med["stock"];?></td>
         <!-- EDIT -->
-        <td><a href="../../Layout/Products_edit/edit_medicines_a_identifications_edit.php?idProduct=<?=$edit_med["id"]?>"><button type="button" class="btn btn-info"><i class="ri-edit-box-line"></i></button></a></td>
+        <td><a href="../../Layout/Products_edit/edit_medicines_a_identifications_edit.php?idProduct=<?=$edit_med["id_med"]?>"><button type="button" class="btn btn-info"><i class="ri-edit-box-line"></i></button></a></td>
     </tr>
   <?php 
       endforeach;
