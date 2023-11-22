@@ -78,6 +78,10 @@ $pages = $_SESSION["user"]["pages"];
                 case 19 :
                     $home="../../../dashboard/U_foods.php";
                     break;    
+                // drivers
+                case 20 :
+                    $home="../../../dashboard/U_technical.php";
+                    break;   
     } 
 }
 ?>

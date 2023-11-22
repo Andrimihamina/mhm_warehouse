@@ -77,6 +77,10 @@ $page = $_SESSION["user"]["pages"];
                 case 19 :
                     $page="../../../../../html/body/dashboard/Users/technical";
                     break;
+                // DRIVERS
+                case 20 :
+                    $page="../../../../../html/body/dashboard/Users/technical";
+                    break;
     } 
 }
 ?>

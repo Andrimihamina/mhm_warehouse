@@ -76,6 +76,10 @@
                 case 19 :
                     header("Location: ../Layout/dashboard/U_foods.php");
                     break;
+                // DRIVERS
+                case 20 :
+                    header("Location: ../Layout/dashboard/U_technical.php");
+                    break;
     } 
    
    ?>

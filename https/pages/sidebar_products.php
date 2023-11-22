@@ -78,6 +78,10 @@ $page = $_SESSION["user"]["pages"];
                 case 19 :
                     include_once ("../../../../sidebar/html/products_users.php");
                     break;
+                // drivers
+                case 20 :
+                    include_once ("../../../../sidebar/html/products_users.php");
+                    break;
     } 
 }
 ?>
