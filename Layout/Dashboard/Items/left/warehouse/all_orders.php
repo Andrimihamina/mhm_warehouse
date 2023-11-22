@@ -24,7 +24,14 @@
               <!-- ID -->
               <td><?=$all_order["id_out"];?></td>
               <!-- RESPONSIBLES -->
-              <?php $id_out = $all_order["id_out"]; $sql_order = "SELECT * FROM `flux_out` WHERE `id_out` = '$id_out'"; $requete_order = $db->query($sql_order); $affiche_order = $requete_order->fetch(); $order= $affiche_order["orderer"];?>
+              <?php 
+                $id_out = $all_order["id_out"]; 
+                $sql_order = "SELECT * FROM `flux_out` WHERE `id_out` = '$id_out'"; 
+                $requete_order = $db->query($sql_order); 
+                $affiche_order = $requete_order->fetch(); 
+                $order= $affiche_order["orderer"];
+              ?>
+
               <td><?=$order?></td> 
               <!-- SERVICES -->
               <?php $id_service = $affiche_order["services"]; $sql_service = "SELECT * FROM `services` WHERE `id_service` = '$id_service'"; $requete_services = $db->query($sql_service); $affiche_service = $requete_services->fetch(); $service= $affiche_service["services_descriptions"];?>

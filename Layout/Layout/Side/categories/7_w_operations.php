@@ -3,7 +3,7 @@
       include_once("../Layout/Side/dashboard.php");
 
       // PURCHASE 
-      include_once("../Layout/Side/purchase_warehouse.php");
+      include_once("../Layout/Side/purchase_fuel.php");
 
       // PRODUCTS
       include_once("../Layout/Side/products_tec.php");

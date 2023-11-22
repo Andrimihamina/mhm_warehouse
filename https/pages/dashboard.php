@@ -120,7 +120,7 @@ $page = $_SESSION["user"]["pages"];
                 // STORKEEPER OPERATIONS
                 case 7 :
                     $dashboard  ="../../Layout/dashboard/w_logistic.php";
-                    $purchases = "../../Layout/Purchases/prospecting_w_logistic.php";
+                    $purchases = "../../Layout/Purchases/fuel.php";
                     $suppliers = "#";
                     $fuel = "../../Layout/Purchases/fuel.php";
                     $prods_all = "../../Layout/Products_all/all.php";

@@ -42,10 +42,11 @@ if(!empty($_POST)){
                     case 1 :
                         $nb_chars = "-000000";
                         break;
-                }
-                
+                } 
+
+
                 // CODE OUT
-                $id_code_out = "OUT" . $nb_chars . $nbr_in;
+                $id_code_out = "$services-" . "OUT" . $nb_chars . $nbr_in;
 
             $_SESSION["services"] = [
                 "priority" => $priority,
