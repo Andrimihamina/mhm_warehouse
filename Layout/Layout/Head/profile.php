@@ -13,6 +13,7 @@
 
    // ID USERS
       $id_users = $_SESSION["user"]["id"]; 
+      $id_users_users = $id_users; 
       $sql_id_users = "SELECT * FROM `users` WHERE `id` = $id_users";
       $requete_id_users  = $db->query($sql_id_users);
       $id_users = $requete_id_users->fetchAll();

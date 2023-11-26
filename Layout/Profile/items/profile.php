@@ -42,11 +42,12 @@
             </div>
 
             <!-- PASSWORD -->
+            <?php require_once ("../../register/edit.php");?>
             <div class="tab-pane fade pt-3" id="profile-change-password">
-              <form>
+              <form  method="POST">
                 <!-- CURRENT PASSWORD -->
                 <div class="row mb-3">
-                  <label for="currentPassword" class="col-md-4 col-lg-3 col-form-label">Current Password</label><div class="col-md-8 col-lg-9"><input name="password" type="password" class="form-control" id="currentPassword"></div>
+                  <label for="currentPassword" class="col-md-4 col-lg-3 col-form-label">Responsable Password</label><div class="col-md-8 col-lg-9"><input name="AutPassword" type="password" class="form-control" id="currentPassword"></div>
                 </div>
                 <!-- NEW PASSWORD -->
                 <div class="row mb-3">
@@ -58,11 +59,11 @@
                 </div>
                 <!-- SAVE -->
                 <div class="text-center">
-                  <button type="submit" class="btn btn-primary">Change Password</button>
+                  <button type="submit" name="id_users" class="btn btn-primary" value ="<?=$id_users_users?>">Change Password</button>
                 </div>
               </form>
 
             </div>
-          </div>
+          </div> 
     </div>
 </div>
