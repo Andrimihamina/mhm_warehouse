@@ -21,12 +21,12 @@
     <!-- STOCK REPRESENTATIVE -->
       <?php
         require_once ("../../php/body/dashboard/quantity.php");
-
-       // IT AND COMM
-       require_once ("../Dashboard/Items/left/Admin/It_C/consumables.php");
-       require_once ("../Dashboard/Items/left/Admin/It_C/materials.php");
+      
+      // IT AND COMM
+        require_once ("../Dashboard/Items/left/Admin/It_C/itc.php");
 
       ?>
+
     </div>
   </div>
   <!-- End Left side columns -->

@@ -1,7 +1,7 @@
 <!-- HEAD -->
 <?php
   $B_head ="Dashboard";
-  $titre = "Nurse 2";
+  $titre = "Storkeeper Technical";
   $title_2 = "Dashboard";
   $title ="Title/title_two.php";
   $section = "section dashboard";
@@ -21,14 +21,12 @@
     <!-- STOCK REPRESENTATIVE -->
       <?php
         require_once ("../../php/body/dashboard/quantity.php");
-
-      // TECHNICALS
-        require_once ("../Dashboard/Items/left/Admin/Technicals/consumables.php");
-        require_once ("../Dashboard/Items/left/Admin/Technicals/materials.php");
-
-      // REAL ESTATE
-        require_once ("../Dashboard/Items/left/Admin/real_estate/immo.php");
-
+            
+            // TECHNICALS
+              require_once ("../Dashboard/Items/left/Admin/Technicals/technicals.php");
+      
+            // REAL ESTATE
+              require_once ("../Dashboard/Items/left/Admin/real_estate/immo.php")
       ?>
     </div>
   </div>

@@ -22,16 +22,17 @@
       <?php
         require_once ("../../php/body/dashboard/quantity.php");
 
-      // LOGISTICS
-        require_once ("../Dashboard/Items/left/Admin/Logistics/consumables.php");
-        require_once ("../Dashboard/Items/left/Admin/Logistics/materials.php");
+            // LOGISTICS
+              require_once ("../Dashboard/Items/left/Admin/Logistics/logistics.php");
+            
+            // TECHNICALS
+              require_once ("../Dashboard/Items/left/Admin/Technicals/technicals.php");
+            
+            // FOODS
+              require_once ("../Dashboard/Items/left/Admin/Foods/foods.php");
       
-      // FOODS
-        require_once ("../Dashboard/Items/left/Admin/Foods/consumables.php");
-        require_once ("../Dashboard/Items/left/Admin/Foods/materials.php");
-      
-      // REAL ESTATE
-        require_once ("../Dashboard/Items/left/Admin/real_estate/immo.php");
+            // REAL ESTATE
+              require_once ("../Dashboard/Items/left/Admin/real_estate/immo.php")
 
       ?>
     </div>

@@ -22,25 +22,19 @@
       <?php
         require_once ("../../php/body/dashboard/quantity.php");
       // MEDICALS
-        require_once ("../Dashboard/Items/left/Admin/Medicals/medicines.php");
-        require_once ("../Dashboard/Items/left/Admin/Medicals/consumables.php");
-        require_once ("../Dashboard/Items/left/Admin/Medicals/materials.php");
+       require_once ("../Dashboard/Items/left/Admin/Medicals/medicals.php");
 
       // LOGISTICS
-        require_once ("../Dashboard/Items/left/Admin/Logistics/consumables.php");
-        require_once ("../Dashboard/Items/left/Admin/Logistics/materials.php");
+        require_once ("../Dashboard/Items/left/Admin/Logistics/logistics.php");
       
       // TECHNICALS
-        require_once ("../Dashboard/Items/left/Admin/Technicals/consumables.php");
-        require_once ("../Dashboard/Items/left/Admin/Technicals/materials.php");
+        require_once ("../Dashboard/Items/left/Admin/Technicals/technicals.php");
       
       // IT AND COMM
-        require_once ("../Dashboard/Items/left/Admin/It_C/consumables.php");
-        require_once ("../Dashboard/Items/left/Admin/It_C/materials.php");
+        require_once ("../Dashboard/Items/left/Admin/It_C/itc.php");
       
       // FOODS
-        require_once ("../Dashboard/Items/left/Admin/Foods/consumables.php");
-        require_once ("../Dashboard/Items/left/Admin/Foods/materials.php");
+        require_once ("../Dashboard/Items/left/Admin/Foods/foods.php");
 
       // REAL ESTATE
         require_once ("../Dashboard/Items/left/Admin/real_estate/immo.php")

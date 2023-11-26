@@ -13,11 +13,12 @@
   <!-- START SIDEBAR -->
   <aside id="sidebar" class="sidebar">
     <ul class="sidebar-nav" id="sidebar-nav">
-      <?php
-      // DASHBOARD 
-      require_once("../../https/pages/sidebar.php");
-      require_once("../Layout/Side/categories/$side_bare");
+      <?php 
+          require_once("../../https/pages/sidebar.php");
+          require_once("sidebar/$sidebar");
       ?>
+
+     
     </ul>
   </aside>
   <!-- END SIDEBAR -->

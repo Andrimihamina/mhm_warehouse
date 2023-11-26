@@ -21,21 +21,17 @@
     <!-- STOCK REPRESENTATIVE -->
       <?php
         require_once ("../../php/body/dashboard/quantity.php");
-      // MEDICALS
-        require_once ("../Dashboard/Items/left/Admin/Medicals/medicines.php");
-        require_once ("../Dashboard/Items/left/Admin/Medicals/consumables.php");
-        require_once ("../Dashboard/Items/left/Admin/Medicals/materials.php");
+        // MEDICALS
+        require_once ("../Dashboard/Items/left/Admin/Medicals/medicals.php");
 
-      // LOGISTICS
-        require_once ("../Dashboard/Items/left/Admin/Logistics/consumables.php");
-        require_once ("../Dashboard/Items/left/Admin/Logistics/materials.php");
-      
-      // FOODS
-        require_once ("../Dashboard/Items/left/Admin/Foods/consumables.php");
-        require_once ("../Dashboard/Items/left/Admin/Foods/materials.php");
+        // LOGISTICS
+          require_once ("../Dashboard/Items/left/Admin/Logistics/logistics.php");
+        
+        // FOODS
+          require_once ("../Dashboard/Items/left/Admin/Foods/foods.php");
 
-      // REAL ESTATE
-        require_once ("../Dashboard/Items/left/Admin/real_estate/immo.php")
+        // REAL ESTATE
+          require_once ("../Dashboard/Items/left/Admin/real_estate/immo.php")
       ?>
     </div>
   </div>

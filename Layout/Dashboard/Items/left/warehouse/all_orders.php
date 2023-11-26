@@ -3,7 +3,7 @@
   <div class="card recent-sales overflow-auto">
 
     <div class="card-body">
-      <h5 class="card-title">Orders</h5>
+      <div class="text-center"><h5 class="card-title">ORDERS</h5></div>
 
       <table class="table table-borderless datatable">
         <!-- HEAD TABLE -->

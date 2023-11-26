@@ -16,14 +16,15 @@
     <!-- STOCK REPRESENTATIVE -->
       <?php
         require_once ("../../php/body/dashboard/quantity.php");
-      // MEDICALS
-        require_once ("../Dashboard/Items/left/Users/Medicals/medicines.php");
-        require_once ("../Dashboard/Items/left/Users/Medicals/consumables.php");
-        require_once ("../Dashboard/Items/left/Users/Medicals/materials.php");
+      
+      // TECHNICALS
+        require_once ("../Dashboard/Items/left/Users/Technicals/technicals.php");
+      
+      // FOODS
+        require_once ("../Dashboard/Items/left/Users/Foods/foods.php");
 
-      // LOGISTICS
-        require_once ("../Dashboard/Items/left/Users/Logistics/consumables.php");
-        require_once ("../Dashboard/Items/left/Users/Logistics/materials.php");
+      // REAL ESTATE
+        require_once ("../Dashboard/Items/left/Users/real_estate/immo.php")
   
       ?>
     </div>

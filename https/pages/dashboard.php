@@ -3,388 +3,86 @@ $page = $_SESSION["user"]["pages"];
     if($page !=""){
         switch($page){  
         // ADMIN
-        case 1 :
-            $dashboard  = "../../Layout/dashboard/admin.php";
-            $purchases = "../../Layout/Purchases/prospecting.php";
-            $suppliers = "../../Layout/Purchases/suppliers.php";
-            $fuel = "../../Layout/Purchases/fuel.php";
-            $prods_all = "../../Layout/Products_all/all.php";
-            $prods_add = "../../Layout/Products_add/add.php";
-            $prods_edit = "../../Layout/Products_edit/edit.php";
-            $orders_history = "../../Layout/Analytics/orders_history.php";
-            $purchases_history = "../../Layout/Analytics/Purchases_history.php";
-            $inputs = "../../Layout/Flux/inputs_suppliers.php";
-            $outputs = "../../Layout/Flux/outputs_services.php";
-            $profile ="../../Layout/Profile/Profile.php";
-            $users ="../../Layout/Users/users.php";
-            $settings ="../../Layout/Settings/settings.php";
-            $responsibilities ="../../Layout/Responsibility/responsibility.php";
-            $services = "../../Layout/Services/services.php";
-            break; 
+        case 1 : require_once("API/1_case_admin.php"); break; 
         // CEO 
-        case 2 :
-            $dashboard  = "../../Layout/dashboard/admin.php";
-            $purchases = "../../Layout/Purchases/prospecting.php";
-            $suppliers = "../../Layout/Purchases/suppliers.php";
-            $fuel = "../../Layout/Purchases/fuel.php";
-            $prods_all = "../../Layout/Products_all/all.php";
-            $prods_add = "../../Layout/Products_add/add.php";
-            $prods_edit = "../../Layout/Products_edit/edit.php";
-            $orders_history = "../../Layout/Analytics/orders_history.php";
-            $purchases_history = "../../Layout/Analytics/Purchases_history.php";
-            $inputs = "../../Layout/Flux/inputs_suppliers.php";
-            $outputs = "../../Layout/Flux/outputs_services.php";
-            $profile ="../../Layout/Profile/Profile.php";
-            $users ="../../Layout/Users/users.php";
-            $settings ="../../Layout/Settings/settings.php";
-            $responsibilities ="#";
-            $services = "#";
-            break;  
+        case 2 : require_once("API/1_case_admin.php"); break;  
         // DEPUTY
-        case 3 :
-            $dashboard  ="../../Layout/dashboard/deputy.php";
-            $purchases = "../../Layout/Purchases/prospecting.php";
-            $suppliers = "../../Layout/Purchases/suppliers.php";
-            $fuel = "../../Layout/Purchases/fuel.php";
-            $prods_all = "../../Layout/Products_all/all.php";
-            $prods_add = "#";
-            $prods_edit = "#";
-            $orders_history = "../../Layout/Analytics/orders_history.php";
-            $purchases_history = "../../Layout/Analytics/Purchases_history.php";
-            $inputs = "#";
-            $outputs = "../../Layout/Flux/outputs_services.php";
-            $profile ="../../Layout/Profile/Profile.php";
-            $users ="../../Layout/Users/users.php";
-            $settings ="#";
-            $responsibilities ="#";
-            $services = "#";
-            break; 
-        // WAREHOUSE
-                // WAREHOUSE RESPONSIBLE
-                case 4 :
-                    $dashboard  = "../../Layout/dashboard/admin.php";
-                    $purchases = "../../Layout/Purchases/prospecting.php";
-                    $suppliers = "../../Layout/Purchases/suppliers.php";
-                    $fuel = "../../Layout/Purchases/fuel.php";
-                    $prods_all = "../../Layout/Products_all/all.php";
-                    $prods_add = "../../Layout/Products_add/add.php";
-                    $prods_edit = "../../Layout/Products_edit/edit.php";
-                    $orders_history = "../../Layout/Analytics/orders_history.php";
-                    $purchases_history = "../../Layout/Analytics/Purchases_history.php";
-                    $inputs = "../../Layout/Flux/inputs_suppliers.php";
-                    $outputs = "../../Layout/Flux/outputs_services.php";
-                    $profile ="../../Layout/Profile/Profile.php";
-                    $users ="../../Layout/Users/users.php";
-                    $settings ="../../Layout/Settings/settings.php";
-                    $responsibilities ="../../Layout/Responsibility/responsibility.php";
-                    $services = "../../Layout/Services/services.php";
-                    break;
-                // STORKEEPER MEDICAL
-                case 5 :
-                    $dashboard  ="../../Layout/dashboard/w_medical.php";
-                    $purchases = "../../Layout/Purchases/prospecting_w_medical.php";
-                    $suppliers = "#";
-                    $fuel = "#";
-                    $prods_all = "../../Layout/Products_all/all.php";
-                    $prods_add = "#";
-                    $prods_edit = "#";
-                    $orders_history = "../../Layout/Analytics/orders_history.php";
-                    $purchases_history = "#";
-                    $inputs = "#";
-                    $outputs = "../../Layout/Flux/outputs_services.php";
-                    $profile ="../../Layout/Profile/Profile.php";
-                    $users ="#";
-                    $settings ="#";
-                    $responsibilities ="#";
-                    $services = "#";
-                    break;
-                // STORKEEPER TECHNICAL
-                case 6 :
-                    $dashboard  ="../../Layout/dashboard/w_technical.php";
-                    $purchases = "../../Layout/Purchases/prospecting_w_technical.php";
-                    $suppliers = "#";
-                    $fuel = "#";
-                    $prods_all = "../../Layout/Products_all/all.php";
-                    $prods_add = "../../Layout/Products_add/add_tec.php";
-                    $prods_edit = "#";
-                    $orders_history = "../../Layout/Analytics/orders_history.php";
-                    $purchases_history = "#";
-                    $inputs = "#";
-                    $outputs = "../../Layout/Flux/outputs_services.php";
-                    $profile ="../../Layout/Profile/Profile.php";
-                    $users ="#";
-                    $settings ="#";
-                    $responsibilities ="#";
-                    $services = "#";
-                    break;
-                // STORKEEPER OPERATIONS
-                case 7 :
-                    $dashboard  ="../../Layout/dashboard/w_logistic.php";
-                    $purchases = "../../Layout/Purchases/fuel.php";
-                    $suppliers = "#";
-                    $fuel = "../../Layout/Purchases/fuel.php";
-                    $prods_all = "../../Layout/Products_all/all.php";
-                    $prods_add = "../../Layout/Products_add/add_log.php";
-                    $prods_edit = "#";
-                    $orders_history = "../../Layout/Analytics/orders_history.php";
-                    $purchases_history = "#";
-                    $inputs = "#";
-                    $outputs = "../../Layout/Flux/outputs_services.php";
-                    $profile ="../../Layout/Profile/Profile.php";
-                    $users ="#";
-                    $settings ="#";
-                    $responsibilities ="#";
-                    $services = "#";
-                    break;
-                // STORKEEPER IT
-                case 8 :
-                    $dashboard  ="../../Layout/dashboard/w_itc.php";
-                    $purchases = "../../Layout/Purchases/prospecting_w_itc.php";
-                    $suppliers = "#";
-                    $fuel = "#";
-                    $prods_all = "../../Layout/Products_all/all.php";
-                    $prods_add = "../../Layout/Products_add/add_itc.php";
-                    $prods_edit = "#";
-                    $orders_history = "../../Layout/Analytics/orders_history.php";
-                    $purchases_history = "#";
-                    $inputs = "#";
-                    $outputs = "../../Layout/Flux/outputs_services.php";
-                    $profile ="../../Layout/Profile/Profile.php";
-                    $users ="#";
-                    $settings ="#";
-                    $responsibilities ="#";
-                    $services = "#";
-                    break;
-                // STORKEEPER COMMUNICATION
-                case 9 :
-                    $dashboard  ="../../Layout/dashboard/w_itc.php";
-                    $purchases = "../../Layout/Purchases/prospecting_w_itc.php";
-                    $suppliers = "#";
-                    $fuel = "#";
-                    $prods_all = "../../Layout/Products_all/all.php";
-                    $prods_add = "#";
-                    $prods_edit = "#";
-                    $orders_history = "../../Layout/Analytics/orders_history.php";
-                    $purchases_history = "#";
-                    $inputs = "#";
-                    $outputs = "../../Layout/Flux/outputs_services.php";
-                    $profile ="../../Layout/Profile/Profile.php";
-                    $users ="#";
-                    $settings ="#";
-                    $responsibilities ="#";
-                    $services = "#";
-                    break;
-        // RESPONSIBLES
-                // RESPONSIBLES NURSE
-                case 11 :
-                    $dashboard  ="../../Layout/dashboard/R_medical.php";
-                    $purchases = "#";
-                    $suppliers = "#";
-                    $fuel = "#";
-                    $prods_all = "../../Layout/Products_all/all.php";
-                    $prods_add = "#";
-                    $prods_edit = "#";
-                    $orders_history = "#";
-                     $purchases_history = "#";
-                    $inputs = "#";
-                    $outputs = "../../Layout/Flux/outputs_services.php";
-                    $profile ="../../Layout/Profile/Profile.php";
-                    $users ="#";
-                    $settings ="#";
-                    $responsibilities ="#";
-                    $services = "#";
-                    break;
-                // RESPONSIBLES DELIVERY
-                case 12 :
-                    $dashboard  ="../../Layout/dashboard/R_medical.php";
-                    $purchases = "#";
-                    $suppliers = "#";
-                    $fuel = "#";
-                    $prods_all = "../../Layout/Products_all/all.php";
-                    $prods_add = "#";
-                    $prods_edit = "#";
-                    $orders_history = "#";
-                    $purchases_history = "#";
-                    $inputs = "#";
-                    $outputs = "../../Layout/Flux/outputs_services.php";
-                    $profile ="../../Layout/Profile/Profile.php";
-                    $users ="#";
-                    $settings ="#";
-                    $responsibilities ="#";
-                    $services = "#";
-                    break;
-                // RESPONSIBLES OBSTETRIC OUTPATIENTS
-                case 13 :
-                    $dashboard  ="../../Layout/dashboard/R_medical.php";
-                    $purchases = "#";
-                    $suppliers = "#";
-                    $fuel = "#";
-                    $prods_all = "../../Layout/Products_all/all.php";
-                    $prods_add = "#";
-                    $prods_edit = "#";
-                    $orders_history = "#";
-                    $purchases_history = "#";
-                    $inputs = "#";
-                    $outputs = "../../Layout/Flux/outputs_services.php";
-                    $profile ="../../Layout/Profile/Profile.php";
-                    $users ="#";
-                    $settings ="#";
-                    $responsibilities ="#";
-                    $services = "#";
-                    break;
-                // RESPONSIBLES PEDIATRIC INPATIENTS
-                case 14 :
-                    $dashboard  ="../../Layout/dashboard/R_medical.php";
-                    $purchases = "#";
-                    $suppliers = "#";
-                    $fuel = "#";
-                    $prods_all = "../../Layout/Products_all/all.php";
-                    $prods_add = "#";
-                    $prods_edit = "#";
-                    $orders_history = "#";
-                    $purchases_history = "#";
-                    $inputs = "#";
-                    $outputs = "../../Layout/Flux/outputs_services.php";
-                    $profile ="../../Layout/Profile/Profile.php";
-                    $users ="#";
-                    $settings ="#";
-                    $responsibilities ="#";
-                    $services = "#";
-                    break;
-                // RESPONSIBLES PEDIATRIC OUTPATIENTS
-                case 14 :
-                    $dashboard  ="../../Layout/dashboard/R_medical.php";
-                    $purchases = "#";
-                    $suppliers = "#";
-                    $fuel = "#";
-                    $prods_all = "../../Layout/Products_all/all.php";
-                    $prods_add = "#";
-                    $prods_edit = "#";
-                    $orders_history = "#";
-                    $purchases_history = "#";
-                    $inputs = "#";
-                    $outputs = "../../Layout/Flux/outputs_services.php";
-                    $profile ="../../Layout/Profile/Profile.php";
-                    $users ="#";
-                    $settings ="#";
-                    $responsibilities ="#";
-                    $services = "#";
-                    break;
-                // RESPONSIBLES OFFICE
-                case 15 :
-                    $dashboard  ="../../Layout/dashboard/R_office.php";
-                    $purchases = "#";
-                    $suppliers = "#";
-                    $fuel = "#";
-                    $prods_all = "../../Layout/Products_all/all.php";
-                    $prods_add = "#";
-                    $prods_edit = "#";
-                    $orders_history = "#";
-                    $purchases_history = "#";
-                    $inputs = "#";
-                    $outputs = "../../Layout/Flux/outputs_services.php";
-                    $profile ="../../Layout/Profile/Profile.php";
-                    $users ="#";
-                    $settings ="#";
-                    $responsibilities ="#";
-                    $services = "#";
-                    break;
-        // USERS
-                // USERS MEDICAL
-                case 16 :
-                    $dashboard  ="../../Layout/dashboard/U_medical.php";
-                    $purchases = "#";
-                    $suppliers = "#";
-                    $fuel = "#";
-                    $prods_all = "../../Layout/Products_all/all.php";
-                    $prods_add = "#";
-                    $prods_edit = "#";
-                    $orders_history = "#";
-                    $purchases_history = "#";
-                    $inputs = "#";
-                    $outputs = "../../Layout/Flux/outputs_services.php";
-                    $profile ="../../Layout/Profile/Profile.php";
-                    $users ="#";
-                    $settings ="#";
-                    $responsibilities ="#";
-                    $services = "#";
-                    break;
-                // USERS OFFICE
-                case 17 :
-                    $dashboard  ="../../Layout/dashboard/U_office.php";
-                    $purchases = "#";
-                    $suppliers = "#";
-                    $fuel = "#";
-                    $prods_all = "../../Layout/Products_all/all.php";
-                    $prods_add = "#";
-                    $prods_edit = "#";
-                    $orders_history = "#";
-                    $purchases_history = "#";
-                    $inputs = "#";
-                    $outputs = "../../Layout/Flux/outputs_services.php";
-                    $profile ="../../Layout/Profile/Profile.php";
-                    $users ="#";
-                    $settings ="#";
-                    $responsibilities ="#";
-                    $services = "#";
-                    break;
-                // USERS TECHNICAL
-                case 18 :
-                    $dashboard  ="../../Layout/dashboard/U_technical.php";
-                    $purchases = "#";
-                    $suppliers = "#";
-                    $fuel = "#";
-                    $prods_all = "../../Layout/Products_all/all.php";
-                    $prods_add = "#";
-                    $prods_edit = "#";
-                    $orders_history = "#";
-                    $purchases_history = "#";
-                    $inputs = "#";
-                    $outputs = "../../Layout/Flux/outputs_services.php";
-                    $profile ="../../Layout/Profile/Profile.php";
-                    $users ="#";
-                    $settings ="#";
-                    $responsibilities ="#";
-                    $services = "#";
-                    break;
-                // USERS ITC
-                case 19 :
-                    $dashboard  ="../../Layout/dashboard/U_foods.php";
-                    $purchases = "#";
-                    $suppliers = "#";
-                    $fuel = "#";
-                    $prods_all = "../../Layout/Products_all/all.php";
-                    $prods_add = "#";
-                    $prods_edit = "#";
-                    $orders_history = "#";
-                    $purchases_history = "#";
-                    $inputs = "#";
-                    $outputs = "../../Layout/Flux/outputs_services.php";
-                    $profile ="../../Layout/Profile/Profile.php";
-                    $users ="#";
-                    $settings ="#";
-                    $responsibilities ="#";
-                    $services = "#";
-                    break;
-                // USERS DRIVERS
-                case 20 :
-                    $dashboard  ="../../Layout/dashboard/U_foods.php";
-                    $purchases = "../../Layout/Purchases/fuel.php";
-                    $suppliers = "#";
-                    $fuel = "../../Layout/Purchases/fuel.php";
-                    $prods_all = "../../Layout/Products_all/all.php";
-                    $prods_add = "#";
-                    $prods_edit = "#";
-                    $orders_history = "#";
-                    $purchases_history = "#";
-                    $inputs = "#";
-                    $outputs = "../../Layout/Flux/outputs_services.php";
-                    $profile ="../../Layout/Profile/Profile.php";
-                    $users ="#";
-                    $settings ="#";
-                    $responsibilities ="#";
-                    $services = "#";
-                    break;
+        case 3 : require_once("API/3_case_fad.php");break; 
+
+     // WAREHOUSE
+             // WAREHOUSE RESPONSIBLE
+             case 4 : require_once("API/1_case_admin.php");break;
+             // STORKEEPER MEDICAL
+             case 5 : require_once("API/5_case_stk_med.php");break;
+             // STORKEEPER TECHNICAL
+             case 6 : require_once("API/6_case_stk_tec.php");break;
+             // STORKEEPER OPERATIONS
+             case 7 : require_once("API/7_case_stk_op.php");break;
+             // STORKEEPER IT
+             case 8 : require_once("API/8_case_stk_it.php");break;
+             // STORKEEPER COMMUNICATION
+             case 9 : require_once("API/9_case_stk_com.php");break;
+
+     // RESPONSIBLES
+             // RESPONSIBLES NURSE
+             case 10 : require_once("API/10_case_resp_medical.php");break;
+             // RESPONSIBLES ANESTHESIOLOGIST
+             case 11 : require_once("API/10_case_resp_medical.php"); break;
+
+             // RESPONSIBLES COMMUNICATION
+             case 12 : require_once("API/12_case_resp_com.php"); break;
+             // RESPONSIBLES FINANCE
+             case 13 : require_once("API/13_case_resp_finance.php"); break;
+             // RESPONSIBLES HR
+             case 14 : require_once("API/14_case_resp_hr.php"); break;
+             // RESPONSIBLES IT
+             case 15 : require_once("API/15_case_resp_it.php"); break;
+             // RESPONSIBLES LOGISTIC
+             case 16 : require_once("API/16_case_resp_log.php"); break;
+             // RESPONSIBLES MINISTRY
+             case 17 : require_once("API/17_case_resp_ministry.php"); break;
+
+             // RESPONSIBLES OBST IN
+             case 18 : require_once("API/10_case_resp_medical.php"); break;
+             // RESPONSIBLES OBST OUT
+             case 19 : require_once("API/10_case_resp_medical.php"); break;
+
+             // RESPONSIBLES OFFICE
+             case 20 : require_once("API/3_case_fad.php"); break;
+             // RESPONSIBLES OPERATIONS
+             case 21 : require_once("API/7_case_stk_op.php"); break;
+
+             // RESPONSIBLES PEDIATRIC
+             case 22 : require_once("API/10_case_resp_medical.php"); break;
+
+              // RESPONSIBLES TRAINING
+              case 23 : require_once("API/10_case_resp_medical.php"); break;
+
+
+     // USERS
+             // USERS OFFICE FINANCE
+             case 24 : require_once("API/13_case_resp_finance.php");break;
+             // USERS OFFICE HR
+             case 25 : require_once("API/14_case_resp_hr.php.php");break;
+             // USERS OFFICE LOGISTIC
+             case 26 : require_once("API/16_case_resp_log.php");break;
+
+             // USERS MEDICAL ANESTH
+             case 27 : require_once("API/10_case_resp_medical.php");break;
+             // USERS MEDICAL 
+             case 28 : require_once("API/10_case_resp_medical.php");break;
+
+             // USERS OFFICE MINISTRY
+             case 29 : require_once("API/17_case_resp_ministry.php");break;
+             // USERS OFFICE LOGISTIC
+             case 30 : require_once("API/16_case_resp_log.php");break;
+
+             // USERS BIOMEDICAL
+             case 31 : require_once("API/30_case_user_tec.php");break;
+             // USERS MECHANICAL
+             case 32 : require_once("API/30_case_user_tec.php");break;
+             // USERS TECHNICAL
+             case 33 : require_once("API/30_case_user_tec.php");break;
     } 
 }
 ?>

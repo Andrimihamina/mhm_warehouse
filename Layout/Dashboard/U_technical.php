@@ -17,12 +17,14 @@
       <?php
        require_once ("../../php/body/dashboard/quantity.php");
 
-       // TECHNICALS
-         require_once ("../Dashboard/Items/left/Users/Technicals/consumables.php");
-         require_once ("../Dashboard/Items/left/Users/Technicals/materials.php");
- 
-       // REAL ESTATE
-         require_once ("../Dashboard/Items/left/Users/real_estate/immo.php"); 
+      // LOGISTICS
+        require_once ("../Dashboard/Items/left/Users/Logistics/logistics.php");
+      
+      // TECHNICALS
+        require_once ("../Dashboard/Items/left/Users/Technicals/technicals.php");
+
+      // REAL ESTATE
+        require_once ("../Dashboard/Items/left/Users/real_estate/immo.php")
 
       ?>
     </div>

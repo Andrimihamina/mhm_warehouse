@@ -17,13 +17,13 @@
       <?php
         require_once ("../../php/body/dashboard/quantity.php");
       // MEDICALS
-        require_once ("../Dashboard/Items/left/Users/Medicals/medicines.php");
-        require_once ("../Dashboard/Items/left/Users/Medicals/consumables.php");
-        require_once ("../Dashboard/Items/left/Users/Medicals/materials.php");
+      require_once ("../Dashboard/Items/left/Users/Medicals/medicals.php");
 
       // LOGISTICS
-        require_once ("../Dashboard/Items/left/Users/Logistics/consumables.php");
-        require_once ("../Dashboard/Items/left/Users/Logistics/materials.php");
+        require_once ("../Dashboard/Items/left/Users/Logistics/logistics.php");
+
+      // REAL ESTATE
+        require_once ("../Dashboard/Items/left/Users/real_estate/immo.php")
   
       ?>
     </div>
