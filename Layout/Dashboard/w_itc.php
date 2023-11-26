@@ -24,6 +24,9 @@
       
       // IT AND COMM
         require_once ("../Dashboard/Items/left/Admin/It_C/itc.php");
+      
+      // REAL ESTATE
+        require_once ("../Dashboard/Items/left/Admin/real_estate/immo.php")
 
       ?>
 

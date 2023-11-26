@@ -1,9 +1,9 @@
 <?php
 // WAREHOUSE
-    /*Home*/$dashboard  = "../../Layout/dashboard/deputy.php";
+    /*Home*/$dashboard  = "../../Layout/dashboard/w_itc.php";
     // PRODUCTS
         $prods_all = "../../Layout/Products_all/all.php";
-        $prods_add = "#";
+        $prods_add = "../../Layout/Products_add/add_itc.php";
         $prods_edit = "#";
     // ANALYTICS
         $orders_history = "../../Layout/Analytics/orders_history.php";
@@ -11,7 +11,7 @@
         $purchases_history = "../../Layout/Analytics/Purchases_history.php";
         $charts_history ="#";
     // PURCHASE
-        $purchases = "../../Layout/Purchases/prospecting.php";
+        $purchases = "../../Layout/Purchases/prospecting_w_itc.php";
         $suppliers = "#";
         $catalogs ="#";
         $proforma ="#";
@@ -36,7 +36,7 @@
         /* FRIDGE */
     // LOGISTICS
         /* CARS */
-        /* FUEL */ $fuel = "../../Layout/Purchases/fuel.php";
+        /* FUEL */ $fuel = "#";
     // TECHNICALS
         /* BOMEDICAL */
         /* WATER */

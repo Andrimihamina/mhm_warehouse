@@ -73,7 +73,7 @@ $page = $_SESSION["user"]["pages"];
                  case 28 : require_once("sidebar_cat/10_case_resp_medical.php");break;
  
                  // USERS OFFICE MINISTRY
-                 case 29 : require_once("sidebar_cat/17_case_resp_ministry.php");break;
+                 case 29 : require_once("sidebar_cat/29_case_guard.php");break;
                  // USERS OFFICE LOGISTIC
                  case 30 : require_once("sidebar_cat/16_case_resp_log.php");break;
  

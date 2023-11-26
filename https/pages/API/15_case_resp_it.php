@@ -1,6 +1,6 @@
 <?php
 // WAREHOUSE
-    /*Home*/$dashboard  = "../../Layout/dashboard/deputy.php";
+    /*Home*/$dashboard  = "../../Layout/dashboard/R_office.php";
     // PRODUCTS
         $prods_all = "../../Layout/Products_all/all.php";
         $prods_add = "#";
@@ -8,10 +8,10 @@
     // ANALYTICS
         $orders_history = "../../Layout/Analytics/orders_history.php";
         $charts_orders ="#";
-        $purchases_history = "../../Layout/Analytics/Purchases_history.php";
+        $purchases_history = "#";
         $charts_history ="#";
     // PURCHASE
-        $purchases = "../../Layout/Purchases/prospecting.php";
+        $purchases = "#";
         $suppliers = "#";
         $catalogs ="#";
         $proforma ="#";
@@ -36,7 +36,7 @@
         /* FRIDGE */
     // LOGISTICS
         /* CARS */
-        /* FUEL */ $fuel = "../../Layout/Purchases/fuel.php";
+        /* FUEL */ $fuel = "#";
     // TECHNICALS
         /* BOMEDICAL */
         /* WATER */
