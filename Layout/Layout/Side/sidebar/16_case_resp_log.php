@@ -8,9 +8,9 @@ include_once("../Layout/Side/warehouse/$w_analytics");
 include_once("../Layout/Side/warehouse/$w_flux");
 ?>
 
-<li class="nav-heading">SERVICES</li>
+<li class="nav-heading">DEPARTEMENTS</li>
 <?php
-include_once("../Layout/Side/services/$service_logistics");
+include_once("../Layout/Side/services/$service_admin");
 ?>
 
 <!-- PAGE -->

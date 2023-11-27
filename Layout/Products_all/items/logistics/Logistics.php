@@ -1,7 +1,7 @@
 <div class="col-xxl-4 col-md-6">
   <div class="card info-card sales-card">
     <div class="card-body">
-      <h5 class="card-title">Logistics</h5>
+      <h5 class="card-title">Office Supplies</h5>
 
         <ol class="list-group list-group-numbered">
           <!-- CONSUMABLES -->

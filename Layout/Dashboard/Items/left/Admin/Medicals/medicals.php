@@ -2,7 +2,7 @@
   <div class="card info-card sales-card">
     
     <div class="card-body">
-      <div class="text-center"><h5 class="card-title">MEDICALS</h5></div>
+      <div class="text-center"><h5 class="card-title">MEDICAL</h5></div>
 
           <!-- START MEDICINES -->
           <div class="alert alert-light border-light alert-dismissible fade show" role="alert">

@@ -1,7 +1,7 @@
  <div class="col-xxl-4 col-md-8">
   <div class="card info-card sales-card">
     <div class="card-body">
-      <div class="text-center"><h5 class="card-title">LOGISTICS</h5></div>
+      <div class="text-center"><h5 class="card-title">OFFICE SUPPLIES</h5></div>
             
         <!-- START CONSUMABLES LOGISTICS -->
         <div class="alert alert-light border-light alert-dismissible fade show" role="alert">  

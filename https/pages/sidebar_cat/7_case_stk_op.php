@@ -8,7 +8,7 @@ $w_analytics  = "analytics_users.php";
 $w_purchase  = "purchase_warehouse.php";
 $w_flux  = "flux_users.php";
 // SERVICES
-$service_admin  = "admin.php";
+$service_admin  = "admin_log.php";
 $chapliancy = "Chapliancy.php";
 $service_medical  = "medical.php";
 $service_logistics  = "logistics.php";

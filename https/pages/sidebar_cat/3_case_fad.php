@@ -10,9 +10,7 @@ $w_flux  = "flux_users.php";
 // SERVICES
 $service_admin  = "admin.php";
 $chapliancy = "Chapliancy.php";
-$chapliancy = "Chapliancy.php";
 $service_medical  = "medical.php";
-$service_logistics  = "logistics.php";
 $service_technical  = "technical.php";
 $service_operations  = "operations.php";
 // PAGE

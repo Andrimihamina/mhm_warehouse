@@ -1,6 +1,6 @@
 <!-- HEAD -->
 <?php
- $B_head ="Logistics";
+ $B_head ="Office Supplies";
  $titre = "Products";
  $link_2 = "../../Layout/Products_edit/edit.php";
  $title_2 = "Edit Products";

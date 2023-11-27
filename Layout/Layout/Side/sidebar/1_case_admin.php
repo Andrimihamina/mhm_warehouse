@@ -9,14 +9,15 @@ include_once("../Layout/Side/warehouse/$w_purchase");
 include_once("../Layout/Side/warehouse/$w_flux");
 ?>
 
-<li class="nav-heading">SERVICES</li>
+<li class="nav-heading">DEPARTEMENTS</li>
 <?php
 include_once("../Layout/Side/services/$service_admin");
-include_once("../Layout/Side/services/$chapliancy");
 include_once("../Layout/Side/services/$service_medical");
-include_once("../Layout/Side/services/$service_logistics");
 include_once("../Layout/Side/services/$service_technical");
 include_once("../Layout/Side/services/$service_operations");
+include_once("../Layout/Side/services/$chapliancy");
+
+
 ?>
 
 <!-- PAGE -->

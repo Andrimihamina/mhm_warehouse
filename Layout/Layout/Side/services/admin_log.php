@@ -7,11 +7,5 @@
     ?>
     <ul id="admin-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
         <li><a href="<?=$fuel?>"><i class="bi bi-circle"></i><span>Logistics</span></a></li>
-        <li><a href="<?=$Finance?>"><i class="bi bi-circle"></i><span>Finance</span></a></li>
-        <li><a href="<?=$HR?>"><i class="bi bi-circle"></i><span>HR</span></a></li>
-        <li><a href="<?=$IT?>"><i class="bi bi-circle"></i><span>IT</span></a></li>
-        <li><a href="<?=$QM?>"><i class="bi bi-circle"></i><span>QM</span></a></li>
-        <li><a href="<?=$communications?>"><i class="bi bi-circle"></i><span>Communications</span></a></li> 
-        
     </ul>
 </li>

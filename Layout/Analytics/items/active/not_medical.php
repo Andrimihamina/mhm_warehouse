@@ -12,12 +12,12 @@
           <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Milk Program</div></a>
           <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Families</div></a>
           <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">MHM Staff Kids</div></a>
-          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Helthy Foods</div></a>
+          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Healthy Foods</div></a>
           <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">MHM Staff Families</div></a>
           <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Pregnancies</div></a>
           <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Kids</div></a>
           <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">School</div></a>
-          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Chaplincy</div></a>
+          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Chaplancy</div></a>
           <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Kids Clubs</div></a>
           <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Playmobil</div></a>
           <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="#"><div class="fw-bold">Prayer Workship Alpha Course</div></a>
