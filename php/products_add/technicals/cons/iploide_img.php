@@ -4,7 +4,7 @@
     $file_tmp_name = $_FILES["med_img"]["tmp_name"];
     //Nom de l'image a manipuler
 
-    $image = $file_tmp_name;
+    $image = $file_name;
 
     if($image!=""){
     // On recupere les infos de l'image

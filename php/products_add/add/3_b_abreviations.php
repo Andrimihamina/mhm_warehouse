@@ -20,7 +20,7 @@ switch($NBR_char){
     case 3 :
         $NBR_chars = "-";
         break;
-}
+} 
 
 // COMPULATION
 $ID = "$CATEGORIES" . "-" . $MAJ_abrev . $NBR_chars . $NBR_abrev;
