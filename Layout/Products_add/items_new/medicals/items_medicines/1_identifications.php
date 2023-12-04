@@ -16,19 +16,19 @@
         <!-- DOSAGE -->
         <div class="row mb-3"> 
             <label for="inputText" class="col-sm-2 col-form-label">Dosage **</label>
-            <div class="col-md-2"><input name="dosage_0" type="number" class="form-control" id="inputCity" require /></div>
+            <div class="col-md-2"><input name="dosage_0" type="text" class="form-control" id="inputCity" require /></div>
             <div class="col-md-2"><?php include("../../sql/list/dosage/units/list_units_1.php");?><select name="dosage_unit_0" id="inputState" class="form-select"><option selected>Choose...</option><?php include("../../sql/list/dosage/units/list_units_2.php");?></select></div>
         </div>
         <!-- DOSAGE PACKAGE-->
         <div class="row mb-3"> 
             <label for="inputText" class="col-sm-2 col-form-label">Dosage/Package</label>
-            <div class="col-md-2"><input name="dosage_package_0" type="number" class="form-control" id="inputCity" require /></div>
+            <div class="col-md-2"><input name="dosage_package_0" type="text" class="form-control" id="inputCity" require /></div>
             <div class="col-md-2"><?php include("../../sql/list/dosage/units/list_units_1.php");?><select name="dosage_package_unit_0" id="inputState" class="form-select"><option selected>Choose...</option><?php include("../../sql/list/dosage/units/list_units_2.php");?></select></div>
         </div>
         <!-- PACKAGE DOSAGE -->
         <div class="row mb-3"> 
             <label for="inputText" class="col-sm-2 col-form-label">Package/Dosage</label>
-            <div class="col-md-2"><input name="dosage_package_quantity_0" type="number" class="form-control" id="inputCity" require /></div>
+            <div class="col-md-2"><input name="dosage_package_quantity_0" type="text" class="form-control" id="inputCity" require /></div>
             <div class="col-md-2"><?php include("../../sql/list/dosage/units/list_units_1.php");?><select name="dosage_package_quantity_unit_0" id="inputState" class="form-select"><option selected>Choose...</option><?php include("../../sql/list/dosage/units/list_units_2.php");?></select></div>
         </div>
         <!-- TOTAL QUATITY -->
@@ -72,19 +72,19 @@
             <!-- DOSAGE -->
             <div class="row mb-3"> 
                 <label for="inputText" class="col-sm-2 col-form-label">Dosage</label>
-                <div class="col-md-2"><input name="dosage_1" type="number" class="form-control" id="inputCity" require /></div>
+                <div class="col-md-2"><input name="dosage_1" type="text" class="form-control" id="inputCity" require /></div>
                 <div class="col-md-2"><?php include("../../sql/list/dosage/units/list_units_1.php");?><select name="dosage_unit_1" id="inputState" class="form-select"><option selected>Choose...</option><?php include("../../sql/list/dosage/units/list_units_2.php");?></select></div>
             </div>
             <!-- DOSAGE PACKAGE-->
             <div class="row mb-3"> 
                 <label for="inputText" class="col-sm-2 col-form-label">Dosage/Package</label>
-                <div class="col-md-2"><input name="dosage_package_1" type="number" class="form-control" id="inputCity" require /></div>
+                <div class="col-md-2"><input name="dosage_package_1" type="text" class="form-control" id="inputCity" require /></div>
                 <div class="col-md-2"><?php include("../../sql/list/dosage/units/list_units_1.php");?><select name="dosage_package_unit_1" id="inputState" class="form-select"><option selected>Choose...</option><?php include("../../sql/list/dosage/units/list_units_2.php");?></select></div>
             </div>
             <!-- PACKAGE DOSAGE -->
             <div class="row mb-3"> 
                 <label for="inputText" class="col-sm-2 col-form-label">Package/Dosage</label>
-                <div class="col-md-2"><input name="dosage_package_quantity_1" type="number" class="form-control" id="inputCity" require /></div>
+                <div class="col-md-2"><input name="dosage_package_quantity_1" type="text" class="form-control" id="inputCity" require /></div>
                 <div class="col-md-2"><?php include("../../sql/list/dosage/units/list_units_1.php");?><select name="dosage_package_quantity_unit_1" id="inputState" class="form-select"><option selected>Choose..</option><?php include("../../sql/list/dosage/units/list_units_2.php");?></select></div>
             </div>
         </div>
@@ -103,19 +103,19 @@
             <!-- DOSAGE -->
             <div class="row mb-3"> 
                 <label for="inputText" class="col-sm-2 col-form-label">Dosage</label>
-                <div class="col-md-2"><input name="dosage_2" type="number" class="form-control" id="inputCity" require /></div>
+                <div class="col-md-2"><input name="dosage_2" type="text" class="form-control" id="inputCity" require /></div>
                 <div class="col-md-2"><?php include("../../sql/list/dosage/units/list_units_1.php");?><select name="dosage_unit_2" id="inputState" class="form-select"><option selected>Choose...</option><?php include("../../sql/list/dosage/units/list_units_2.php");?></select></div>
             </div>
             <!-- DOSAGE PACKAGE-->
             <div class="row mb-3"> 
                 <label for="inputText" class="col-sm-2 col-form-label">Dosage/Package</label>
-                <div class="col-md-2"><input name="dosage_package_2" type="number" class="form-control" id="inputCity" require /></div>
+                <div class="col-md-2"><input name="dosage_package_2" type="text" class="form-control" id="inputCity" require /></div>
                 <div class="col-md-2"><?php include("../../sql/list/dosage/units/list_units_1.php");?><select name="dosage_package_unit_2" id="inputState" class="form-select"><option selected>Choose...</option><?php include("../../sql/list/dosage/units/list_units_2.php");?></select></div>
             </div>
             <!-- PACKAGE DOSAGE -->
             <div class="row mb-3"> 
                 <label for="inputText" class="col-sm-2 col-form-label">Package/Dosage</label>
-                <div class="col-md-2"><input name="dosage_package_quantity_2" type="number" class="form-control" id="inputCity" require /></div>
+                <div class="col-md-2"><input name="dosage_package_quantity_2" type="text" class="form-control" id="inputCity" require /></div>
                 <div class="col-md-2"><?php include("../../sql/list/dosage/units/list_units_1.php");?><select name="dosage_package_quantity_unit_2" id="inputState" class="form-select"><option selected>Choose...</option><?php include("../../sql/list/dosage/units/list_units_2.php");?></select></div>
             </div>
         </div>
