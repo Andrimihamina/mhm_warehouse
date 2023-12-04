@@ -22,5 +22,11 @@ $In_Stock = $InStock + $QT;
 $sql_Update_stock = "UPDATE `cons_med_quantity` SET `stock` = '$addstock', `stock_in`= $In_Stock 
                      WHERE `cons_med_quantity`.`id_cons_med` = '$id_cons_med'";               
 $query_UpdateStock = $db->prepare($sql_Update_stock);
-$query_UpdateStock -> execute();        
+$query_UpdateStock -> execute();       
+
+// UPDATE LA QUANTITE DANS LE PATIENT SYSTEM INVENTORY
+           
+$sql_fluy_patient_system = "UPDATE `inventories` SET `general` = '$addstock' WHERE `inventories`.`id_cons_med` = '$id_cons_med'";
+$query_flux_in_update_qt_general= $db_p->prepare($sql_fluy_patient_system);
+$query_flux_in_update_qt_general->execute();
 ?>

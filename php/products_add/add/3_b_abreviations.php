@@ -11,15 +11,17 @@ if($NBR_abreviations > 0){$NBR_abrev = $NBR_abreviations + 1;}else{ $NBR_abrev =
 // NUMBER OF CHARACTERS
 $NBR_char = strlen($NBR_abreviations);
 switch($NBR_char){
-    case 1 :
-        $NBR_chars = "-00";
+    case 3 :
+        $NBR_chars = "-";
         break;
     case 2 :
         $NBR_chars = "-0";
         break;
-    case 3 :
-        $NBR_chars = "-";
+    case 1 :
+        $NBR_chars = "-00";
         break;
+
+
 } 
 
 // COMPULATION

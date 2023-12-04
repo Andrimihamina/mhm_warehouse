@@ -24,4 +24,16 @@ $sql_Update_stock = "UPDATE `medicine_quantity` SET `stock` = '$addstock', `stoc
 $query_UpdateStock = $db->prepare($sql_Update_stock);
 $query_UpdateStock -> execute();        
 
+// UPDATE LA QUANTITE DANS LE QUANTITE MEDICINE PATIENT SYSTEM
+$sql_stock_patient_system_inventory = "SELECT * FROM `inventories` WHERE `id_med` = '$id_med'";
+$requete_stock_patient_system_inventory = $db_p->query($sql_stock_patient_system_inventory);
+$affiche_quantite_patient_system_inventory = $requete_stock_patient_system_inventory->fetch();
+
+$stock_actuelle_patient_system_inventory = $affiche_quantite_patient_system_inventory["general"];
+
+// UPDATE GENERAL STOCK
+$sql_flux_out_update_qt_general = "UPDATE `inventories` SET `general` = '$addstock' WHERE `inventories`.`id_med` = '$id_med'";
+$query_flux_out_update_qt_general = $db_p ->prepare($sql_flux_out_update_qt_general);
+$query_flux_out_update_qt_general->execute();
+
 ?>

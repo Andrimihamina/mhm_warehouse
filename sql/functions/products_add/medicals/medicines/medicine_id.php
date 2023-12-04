@@ -30,5 +30,6 @@ VALUES
 
 $query_medicine_id = $db->prepare($sql_medicine_id);
 $query_medicine_id->execute();
+
 $medicine_id = $db->lastInsertId();
 ?>

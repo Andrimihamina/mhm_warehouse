@@ -20,5 +20,7 @@ if($abbrev_value_indentif == "COS-MED-"){
 
     require("../../../../sql/flux/outputs/order_update_flux.php");
     require("../../../../sql/flux/outputs/categories/cons_med.php");
+
+    require("../../../../sql/flux/outputs/categories/patient_system_cons_med.php");
     }
 ?>

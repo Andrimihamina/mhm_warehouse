@@ -36,6 +36,13 @@ if(!empty($_POST)){
             else {
                 // MEDICINE ID
                 require_once ("../../sql/functions/products_add/medicals/medicines/medicine_id.php");
+
+                    // PATIENTS SYSTEM
+                    // ITEMS
+                    require_once ("../../sql/functions/products_add/medicals/medicines/med_patient_system.php");
+                    // INVENTORY
+                    require_once ("../../sql/functions/products_add/medicals/medicines/med_inventory.php");
+
                 // USED FOR
                 require_once ("../../sql/functions/products_add/medicals/medicines/used_for.php"); 
                 // LOCATIONS

@@ -36,6 +36,13 @@ if(!empty($_POST)){
             else {                         
                 // CONS MED ID
                 require_once ("../../sql/functions/products_add/medicals/cons/identification.php");
+
+                // PATIENTS SYSTEM
+                    // ITEMS
+                    require_once ("../../sql/functions/products_add/medicals/cons/cons_patient_system.php");
+                    // INVENTORY
+                    require_once ("../../sql/functions/products_add/medicals/cons/cons_inventory.php");
+
                 // USED FOR 
                 require_once ("../../sql/functions/products_add/medicals/cons/used_for.php"); 
                 // LOCATIONS
