@@ -7,7 +7,7 @@ if($types != NULL AND $types != "Choose..." AND $types != 0){
      $affiche_types= $requete_types ->fetchAll();
    
     $affiche_types = $affiche_types[0]["types_descriptions"];
-}else{$affiche_types = NULL;}
+}else{$affiche_types = NULL; $types = 0; }
 
 // FORMS
 if($forms != NULL AND $forms != "Choose..." AND $forms != 0){
@@ -16,7 +16,7 @@ if($forms != NULL AND $forms != "Choose..." AND $forms != 0){
      $affiche_forms = $requete_forms ->fetchAll();
    
     $affiche_forms= $affiche_forms[0]["form_descriptions"];
-}else{$affiche_forms = NULL;}
+}else{$affiche_forms = NULL; $forms = 0; }
 
 //  ================= ASSOCIATIONS =====================*/
 // TYPES
@@ -26,7 +26,7 @@ if($association_types != NULL AND $association_types != "Choose..." AND $associa
      $affiche_association_types= $requete_association_types ->fetchAll();
    
     $affiche_association_types = $affiche_association_types[0]["types_descriptions"];
-}else{$affiche_association_types = NULL;}
+}else{$affiche_association_types = NULL; $association_types = 0; }
 
 // FORMS
 if($association_form != NULL AND $association_form != "Choose..." AND $association_form != 0){
@@ -35,6 +35,6 @@ if($association_form != NULL AND $association_form != "Choose..." AND $associati
      $affiche_association_forms = $requete_association_forms ->fetchAll();
    
     $affiche_association_forms= $affiche_association_forms[0]["form_descriptions"];
-}else{$affiche_association_forms = NULL;}
+}else{$affiche_association_forms = NULL; $association_form = 0;}
 
 ?>

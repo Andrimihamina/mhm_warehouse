@@ -16,8 +16,7 @@ $sql_all_orders = "SELECT COUNT(id_out) AS number_out, id_out
                          -- SERVICE OUTPUTS
                          AND service_out = '4'
                          -- COUNT OFF DIFFERENTE TYPE
-                         GROUP BY id_out HAVING COUNT(id_out) >= 1
-                         ORDER BY created_date DESC ";
+                         GROUP BY id_out HAVING COUNT(id_out) >= 1";
 
 $requete_all_orders = $db->query($sql_all_orders);
 $all_orders = $requete_all_orders->fetchAll(); 

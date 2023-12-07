@@ -27,7 +27,6 @@ $sql_id= "INSERT INTO `cons_med_id` (
         /*NAME ADD*/ '$name_adding', 
         /*IMAGE*/ '$file_name')";
 
-
 $query_id = $db->prepare($sql_id);
 $query_id->execute();
 $cons_id = $db->lastInsertId();

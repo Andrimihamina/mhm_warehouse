@@ -1,7 +1,7 @@
 <?php
     if($categories == "cos_log_done-"){
         //CATEGORIES
-        $categories = "Consumables Logistics";
+        $categories = "Cons Logistics";
 
        //IDENTITY
         $id = str_replace("cos_log_done-", "", $var_id);
