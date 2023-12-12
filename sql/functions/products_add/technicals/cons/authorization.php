@@ -81,7 +81,7 @@
       `technical_technical`, `technical_Biomed`, `technical_Mechanical`,
       /*VEHICLE*/
       `vehicles_isuzu_bleu`, `vehicles_isuzu_green`, `vehicles_galopper`, `vehicles_daihatsu`, 
-      `vehicles_prado`, `vehicles_starex`, `vehicles_motorbike_honda`, `vehicles_scooter_bleu`, 
+      `vehicles_prado`, `vehicles_starex`, `vehicles_sprinter`, `vehicles_motorbike_honda`, `vehicles_scooter_bleu`, `vehicles_others`,
       /*BULDING INSIDE*/
       `bulding_inside_well_and_water`, `bulding_inside_solar`, `bulding_inside_generator`, `bulding_inside_operation`, 
       `bulding_inside_equipement`, 
@@ -102,7 +102,7 @@
       '$technical_technical', '$technical_Biomed', '$technical_Mechanical',
       /*VEHICLE*/
       '$vehicles_isuzu_bleu', '$vehicles_isuzu_green', '$vehicles_galopper', '$vehicles_daihatsu', 
-      '$vehicles_prado', '$vehicles_starex', '$vehicles_motorbike_honda', '$vehicles_scooter_bleu', 
+      '$vehicles_prado', '$vehicles_starex','$vehicles_sprinter', '$vehicles_motorbike_honda', '$vehicles_scooter_bleu', '$vehicles_others',
       /*BULDING INSIDE*/
       '$bulding_inside_well_and_water', '$bulding_inside_solar', '$bulding_inside_generator', '$bulding_inside_operation', 
       '$bulding_inside_equipement', 
@@ -115,6 +115,7 @@
       //On execute la requete
 
      $query_authorization_passive->execute();
+     var_dump($sql_authorization_passive);
      /*
                 =====================0 AUTORIZATION TEMPORARY ========================
      */

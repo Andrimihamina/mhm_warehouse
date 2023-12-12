@@ -6,5 +6,4 @@
 
 $query_location = $db->prepare($sql_location);
 $query_location->execute();
-
 ?>

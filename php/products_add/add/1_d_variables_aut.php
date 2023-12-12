@@ -205,6 +205,8 @@
         $vehicles_daihatsu = isSet($_POST['vehicles_daihatsu']) ? 1 : 0;
 //PRADO
         $vehicles_prado = isSet($_POST['vehicles_prado']) ? 1 : 0;
+// SPRINTER
+        $vehicles_sprinter = isSet($_POST['vehicles_sprinter']) ? 1 : 0;
 //STAREX
         $vehicles_starex = isSet($_POST['vehicles_starex']) ? 1 : 0;
 //MOTORBIKE HONDA
