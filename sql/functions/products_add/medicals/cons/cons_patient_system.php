@@ -7,7 +7,7 @@ $sql_patients_systems= "INSERT INTO `items` (`id`, `created_at`, `updated_at`, `
 '$location_0', NULL, '$qt_price', '$price', NULL, '$Used', '$brands', 
 /*AUT*/
 '$inpatients_Stork_Center', '$outpatients_general_Doctors', '$midmob', '$detmob', 
-'$ambulance_2', '$outpatients_Yuck_Room', '$outpatients_Grace_Center', '$outpatients_Joy_Center', '$laboratory', '$outpatients_dental', '$outpatients_obstetrical', '$outpatients_Ultrasound', '$outpatients_Planning_Familial', '$outpatients_pediatric', '$inpatients_pediatric_one', '$inpatients_delivery', '$inpatients_surgeries', '$sterilizations', NULL,NULL, '$cons_id')";
+'$ambulance_2', '$outpatients_Yuck_Room', '$outpatients_Grace_Center', '$outpatients_Joy_Center', '$laboratory', '$outpatients_dental', '$outpatients_obstetrical', '$outpatients_Ultrasound', '$outpatients_Planning_Familial', '$outpatients_pediatric', '$inpatients_pediatric_one', '$inpatients_delivery', '$inpatients_surgeries', '$sterilizations', NULL,0, '$cons_id')";
 
 //On prerare la requete
 $query_systems = $db_p ->prepare($sql_patients_systems);

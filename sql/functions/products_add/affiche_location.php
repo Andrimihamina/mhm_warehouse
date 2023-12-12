@@ -6,7 +6,7 @@ if($location_0 != "Choose..."){
    $affiche_location_0 = $requete_affiche_location_0->fetchAll();
    
    $affiche_location_0= $affiche_location_0[0]["location_descriptions"];
-}else{$affiche_location_0 = NULL;}
+}else{$affiche_location_0 = NULL; $location_0 = NULL;}
 
 // LOCATION 1
 if($location_1 != "Choose..."){  
@@ -15,7 +15,7 @@ if($location_1 != "Choose..."){
    $affiche_location_1 = $requete_affiche_location_1->fetchAll();
  
    $affiche_location_1= $affiche_location_1[0]["sublocation_descriptions"];
-}else{$affiche_location_1 = NULL;}
+}else{$affiche_location_1 = NULL; $location_1 = NULL;}
 
 // LOCATION 2
 if($location_2!= "Choose..."){
@@ -24,6 +24,6 @@ if($location_2!= "Choose..."){
    $affiche_location_2 = $requete_affiche_location_2->fetchAll();
  
    $affiche_location_2= $affiche_location_2[0]["subsublocation_descriptions"];
-}else{$affiche_location_2 = NULL;}
+}else{$affiche_location_2 = NULL; $location_2 = NULL;}
    
  ?>

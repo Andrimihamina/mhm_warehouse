@@ -30,9 +30,9 @@ $outpatients_Joy_Center, $laboratory, $outpatients_dental,
 $outpatients_obstetrical, $outpatients_Ultrasound, $outpatients_Planning_Familial, 
 $outpatients_pediatric, $inpatients_pediatric_one, 
 $inpatients_delivery, $inpatients_surgeries, $sterilizations, 
-NULL, 
+0, 
 '$medicine_id', '')";
-
+var_dump($sql_items);
 $query_items = $db_p->prepare($sql_items);
 $query_items->execute();
 $medicine_items = $db_p->lastInsertId();

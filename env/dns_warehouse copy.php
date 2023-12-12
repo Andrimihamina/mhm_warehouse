@@ -1,6 +1,6 @@
 <?php
     // constantes d'environnement
-    define("DBHOST", "169.254.160.2");
+    define("DBHOST", "169.254.218.226");
     define("DBUSER", "warehouse");
     define("DBPASS", "mhm_wh");
     define("DBNAME", "mhm_db");

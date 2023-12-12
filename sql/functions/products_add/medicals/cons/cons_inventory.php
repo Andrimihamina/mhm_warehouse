@@ -9,7 +9,7 @@ $sql_patients_systems_inventory= "INSERT INTO `inventories`
 '$id_items', 
 '$quantity_initial', 
 NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
-NULL,'$cons_id')";
+0,'$cons_id')";
 // On prerare la requete
 $query_systems_inventory = $db_p ->prepare($sql_patients_systems_inventory);
 //On execute la requete
