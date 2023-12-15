@@ -6,7 +6,7 @@
         $affiche_application = $requete_affiche_application->fetchAll();
       
         $affiche_application= $affiche_application[0]["application_descriptions"];
-    }else{$affiche_application = NULL;}
+    }else{$affiche_application = NULL; $application=NULL;}
 
 /* ===================== CLASSIFICATIONS =========================*/
 // CLASSIFICATION 0
@@ -16,7 +16,7 @@ if($classification_0 != "Choose..."){
     $affiche_classificiation_0 = $requete_affiche_classificiation_0->fetchAll();
 
     $affiche_classificiation_0= $affiche_classificiation_0[0]["classifications_descriptions"];
-}else{$affiche_classificiation_0 = NULL;}
+}else{$affiche_classificiation_0 = NULL; $classification_0 =NULL;}
 
 // CLASSIFICATION 1
 if($classification_1 != "Choose..."){
@@ -25,7 +25,7 @@ if($classification_1 != "Choose..."){
     $affiche_classificiation_1 = $requete_affiche_classificiation_1->fetchAll();
 
     $affiche_classificiation_1 = $affiche_classificiation_1[0]["med_subclassification_description"];
-}else{$affiche_classificiation_1 = NULL;}
+}else{$affiche_classificiation_1 = NULL; $classification_1=NULL;}
 
 // CLASSIFICATION 2
 if($classification_2!= "Choose..."){
@@ -34,5 +34,5 @@ if($classification_2!= "Choose..."){
     $affiche_classificiation_2 = $requete_affiche_classificiation_2->fetchAll();
 
     $affiche_classificiation_2 = $affiche_classificiation_2[0]["med_subclassification_description"];
-}else{$affiche_classificiation_2 = NULL;}
+}else{$affiche_classificiation_2 = NULL; $classification_2 =NULL;}
 ?>

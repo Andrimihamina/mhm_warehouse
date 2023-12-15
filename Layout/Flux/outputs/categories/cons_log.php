@@ -7,6 +7,6 @@
     <td><?=$prod["stock"]?></td>
     <td><input name="cos_log_qt-<?= $prod["id_cons_log"]?>" type="number" class="form-control" style="width: 106px"></td>
     <!-- EDIT -->
-    <td><button type="submit" name="cos_log_done-<?= $prod["id_cons_log"]?>" value ="done" class="btn btn-info"><i class="ri-edit-box-line"></i></button></td>
+    <td><button type="submit" name="cos_log_done-<?= $prod["id_cons_log"]?>" value ="done" class="btn btn-info"><i class="bi bi-check-circle"></i></button></td>
     </tr>
 <?php endforeach; ?>

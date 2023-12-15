@@ -3,7 +3,7 @@
     define("DBHOST", "169.254.218.226");
     define("DBUSER", "warehouse");
     define("DBPASS", "mhm_wh");
-    define("DBNAME", "mhm_db");
+    define("DBNAME", "mhm_warehouse");
 
     // Data Source Name (DSN) de connexion
     $dsn = "mysql:dbname=".DBNAME.";host=".DBHOST;

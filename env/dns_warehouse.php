@@ -1,8 +1,8 @@
 <?php
     // constantes d'environnement
-    define("DBHOST", "169.254.218.226");
-    define("DBUSER", "warehouse");
-    define("DBPASS", "mhm_wh");
+    define("DBHOST", "localhost");
+    define("DBUSER", "root");
+    define("DBPASS", "Mhm2712");
     define("DBNAME", "mhm_warehouse");
 
     // Data Source Name (DSN) de connexion

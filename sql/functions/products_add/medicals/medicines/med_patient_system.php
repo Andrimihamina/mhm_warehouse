@@ -31,8 +31,8 @@ $outpatients_obstetrical, $outpatients_Ultrasound, $outpatients_Planning_Familia
 $outpatients_pediatric, $inpatients_pediatric_one, 
 $inpatients_delivery, $inpatients_surgeries, $sterilizations, 
 0, 
-'$medicine_id', '')";
-var_dump($sql_items);
+'$medicine_id', '0')";
+
 $query_items = $db_p->prepare($sql_items);
 $query_items->execute();
 $medicine_items = $db_p->lastInsertId();

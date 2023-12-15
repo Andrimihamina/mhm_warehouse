@@ -7,6 +7,6 @@
     <td><?=$prod["stock"]?></td>
     <td><input name="mat_imo_qt-<?= $prod["id_mat_imo"]?>" type="number" class="form-control" style="width: 106px"></td>
     <!-- EDIT -->
-    <td><button type="submit" name="mat_imo_done-<?= $prod["id_mat_imo"]?>" value ="done" class="btn btn-info"><i class="ri-edit-box-line"></i></button></td>
+    <td><button type="submit" name="mat_imo_done-<?= $prod["id_mat_imo"]?>" value ="done" class="btn btn-info"><i class="bi bi-check-circle"></i></button></td>
     </tr>
 <?php endforeach; ?>

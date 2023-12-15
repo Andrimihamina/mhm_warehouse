@@ -1,8 +1,8 @@
 <?php
     // constantes d'environnement
-    define("DBHOST_p", "169.254.218.226");
-    define("DBUSER_p", "warehouse");
-    define("DBPASS_p", "mhm_wh");
+    define("DBHOST_p", "localhost");
+    define("DBUSER_p", "root");
+    define("DBPASS_p", "Mhm2712");
     define("DBNAME_p", "mhm_patient_system");
 
     // Data Source Name (DSN) de connexion
