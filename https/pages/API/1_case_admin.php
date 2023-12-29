@@ -24,7 +24,7 @@
         /* COMMUNICATIONS */
         /* HR */
         /* IT */
-        /* FINANCE */
+        /* FINANCE */ $Finance = "../../Layout/Purchases/1_purchase.php";
     // CHAPLIANCY
         /* SOCIAL */
         /* CHAPLIANCY */

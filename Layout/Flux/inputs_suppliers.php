@@ -31,8 +31,8 @@
           <div class="row mb-3"><label for="inputText" class="col-sm-2 col-form-label">No. Bill</label><div class="col-sm-10"><input name="purchase_bill" type="text" class="form-control" /></div></div>
           <!-- BILL SCAN -->
           <div class="row mb-3"><label for="inputNumber" class="col-sm-2 col-form-label">Bill Picture</label><div class="col-sm-10"><input name="purchase_bill_scan"  type ="file" class="form-control"></div></div>
-          <!-- PAYMENT -->
-          <div class="row mb-3"><legend class="col-form-label col-sm-2 pt-0">Payment</legend>
+          <!-- PAYMENT TYPE -->
+          <div class="row mb-3"><legend class="col-form-label col-sm-2 pt-0">Payment type</legend>
               <div class="col-xl-6">
                   <div class="row">
                       <div class="form-check"><input class="form-check-input" type="radio" name="payment" id="gridRadios4" value="Cash" checked><label class="form-check-label" for="gridRadios4">Cash</label></div>
@@ -41,6 +41,16 @@
                   </div>
               </div>
           </div> 
+          <!-- PAYMENT -->
+          <div class="row mb-3"><legend class="col-form-label col-sm-2 pt-0">Payment</legend>
+            <div class="col-xl-6">
+                <div class="row">
+                    <div class="form-check"><input class="form-check-input" type="radio" name="payment_done" id="payement_yes" value="payed" checked><label class="form-check-label" for="payement_yes">Done</label></div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="payment_done" id="payement_no" value="Not_payed" ><label class="form-check-label" for="payement_no">With Deadline </label></div>
+                </div>
+            </div>
+          </div>
+
           <!-- DUE DATE -->
           <div class="row mb-3"><label for="inputDate" class="col-sm-2 col-form-label">Due date</label><div class="col-sm-3"><input type="date" name ="purchase_payment_due_date" class="form-control"></div></div>
           <!-- COMMENTS -->

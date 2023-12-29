@@ -14,6 +14,8 @@ $bill_scan = $_SESSION["suppliers"]["purchase_bill_scan"];
 
 $modus_payement =  $_SESSION["suppliers"]["payment"];
 
+$payment_done =  $_SESSION["suppliers"]["payment_done"];
+
 $payment_due_date =  $_SESSION["suppliers"]["purchase_payment_due_date"];
 if($payment_due_date !=""){$payment_due_date = $_SESSION["suppliers"]["purchase_payment_due_date"];}else{$payment_due_date = NULL;}
 

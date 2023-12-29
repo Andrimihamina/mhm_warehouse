@@ -11,13 +11,15 @@ if(!empty($_POST)){
             $_POST["purchase_proforma"],
             $_POST["purchase_bill"],
             $_POST["payment"],
+            $_POST["payment_done"],
             $_POST["purchase_payment_due_date"],
             $_POST["purchase_commets"]
             )
             && !empty($_POST["purchase_date"])
             && !empty($_POST["purchase_suppliers"])
             && !empty($_POST["purchase_bill"])
-            && !empty($_POST["payment"]))
+            && !empty($_POST["payment"])
+            && !empty($_POST["payment_done"]))
             {
 
         $purchase_date= strip_tags($_POST["purchase_date"]);
@@ -34,6 +36,8 @@ if(!empty($_POST)){
 
         $payment= strip_tags($_POST["payment"]);
             if($payment ==""){$_SESSION["error_suppliers"] =["Payement Modus empty"];}
+        $payment_done= strip_tags($_POST["payment_done"]);
+            if($payment_done ==""){$_SESSION["error_suppliers"] =["Payement Modus empty"];}
         $purchase_payment_due_date= strip_tags($_POST["purchase_payment_due_date"]);
         $purchase_commets= strip_tags($_POST["purchase_commets"]);
 
@@ -83,6 +87,7 @@ if(!empty($_POST)){
             "purchase_bill" => $purchase_bill,
             "purchase_bill_scan" => $file_name,
             "payment" => $payment,
+            "payment_done" => $payment_done,
             "purchase_payment_due_date" => $purchase_payment_due_date,
             "purchase_commets" => $purchase_commets,
             "nbr_in" => $nbr_in,
