@@ -10,6 +10,7 @@ if(!empty($_POST)){
             $_POST["purchase_suppliers"],
             $_POST["purchase_proforma"],
             $_POST["purchase_bill"],
+            $_POST["amount_bill"],
             $_POST["payment"],
             $_POST["payment_done"],
             $_POST["purchase_payment_due_date"],
@@ -18,6 +19,7 @@ if(!empty($_POST)){
             && !empty($_POST["purchase_date"])
             && !empty($_POST["purchase_suppliers"])
             && !empty($_POST["purchase_bill"])
+            && !empty($_POST["amount_bill"])
             && !empty($_POST["payment"])
             && !empty($_POST["payment_done"]))
             {
@@ -30,6 +32,9 @@ if(!empty($_POST)){
 
         $purchase_bill= strip_tags($_POST["purchase_bill"]);
             if($purchase_bill ==""){$_SESSION["error_suppliers"] =["Number Bill empty"];}
+        
+        $amount_bill = strip_tags($_POST["amount_bill"]);
+            if($amount_bill ==""){$_SESSION["error_suppliers"] =["Total Amount Bill empty"];}
 
         $purchase_bill_scan= $_FILES["purchase_bill_scan"]["name"];
             if($purchase_bill_scan ==""){$_SESSION["error_suppliers"] =["Bill Scan empty"];}
@@ -93,6 +98,7 @@ if(!empty($_POST)){
             "nbr_in" => $nbr_in,
             "id_code_in" => $id_code_in,
             "nbr_chr" => $nb_char,
+            "amount_bill" => $amount_bill,
         ];
         
         header("Location: ../flux/inputs_register.php");

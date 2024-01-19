@@ -11,6 +11,7 @@ if($proforma_number !=""){$proforma_number = $_SESSION["suppliers"]["purchase_pr
 
 $bill_number = $_SESSION["suppliers"]["purchase_bill"];
 $bill_scan = $_SESSION["suppliers"]["purchase_bill_scan"];
+$amount_bill = $_SESSION["suppliers"]["amount_bill"];
 
 $modus_payement =  $_SESSION["suppliers"]["payment"];
 
@@ -21,6 +22,10 @@ if($payment_due_date !=""){$payment_due_date = $_SESSION["suppliers"]["purchase_
 
 $purchase_comments = $_SESSION["suppliers"]["purchase_commets"];
 if($purchase_comments !=""){$purchase_comments = $_SESSION["suppliers"]["purchase_commets"];}else{$purchase_comments = NULL;}
+
+if($payment_done ==="payed"){
+  $date_payment = $purchase_date;
+}else { $date_payment = NULL ;}
 
 $nbr_in = $_SESSION["suppliers"]["nbr_in"];
 $id_code_in = $_SESSION["suppliers"]["id_code_in"];

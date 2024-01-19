@@ -29,6 +29,8 @@
           <div class="row mb-3"><label for="inputText" class="col-sm-2 col-form-label">Pro-Forma</label><div class="col-sm-10"><input name="purchase_proforma" type="text" class="form-control" /></div></div>
           <!-- BILL -->
           <div class="row mb-3"><label for="inputText" class="col-sm-2 col-form-label">No. Bill</label><div class="col-sm-10"><input name="purchase_bill" type="text" class="form-control" /></div></div>
+          <!-- AMOUN BILL -->
+          <div class="row mb-3"><label for="inputText" class="col-sm-2 col-form-label">Amount Bill (Ar)</label><div class="col-sm-10"><input name="amount_bill" type="text" class="form-control" /></div></div>
           <!-- BILL SCAN -->
           <div class="row mb-3"><label for="inputNumber" class="col-sm-2 col-form-label">Bill Picture</label><div class="col-sm-10"><input name="purchase_bill_scan"  type ="file" class="form-control"></div></div>
           <!-- PAYMENT TYPE -->
