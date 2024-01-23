@@ -25,9 +25,8 @@ if($quantity_added !="" AND $purchase_price !=""){
     '$name_adding',  
     0, 0)";
 
-    $query_cons_foo = $db->prepare($sql);
-    $query_cons_foo->execute();
-
+    $query_cons = $db->prepare($sql);
+    $query_cons ->execute();
 }
 
 ?>

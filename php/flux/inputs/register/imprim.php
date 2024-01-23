@@ -183,7 +183,7 @@ function Header()
 }}
 
 $sql = "SELECT * FROM `flux_in` WHERE `done` = 1";
-$sql_1 = "SELECT `categories`,`id_abrev_code`,`purchase_date` , `descriptions`, `quantity_added`, `purchase_price` FROM `flux_in` WHERE id_in ='IN-0000001' and done =1 and cancel != 1";
+$sql_1 = "SELECT `categories`,`id_abrev_code`,`purchase_date` , `descriptions`, `quantity_added`, `purchase_price` FROM `flux_in` WHERE id_in ='$id_code_in' and done =1 and cancel != 1";
 $pdf = new PDF('P', 'mm', array(100,70));
 $pdf->AddPage();
 // Compteur de pages {nb}

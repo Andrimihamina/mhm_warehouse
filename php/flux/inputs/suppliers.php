@@ -19,7 +19,6 @@ if(!empty($_POST)){
             && !empty($_POST["purchase_date"])
             && !empty($_POST["purchase_suppliers"])
             && !empty($_POST["purchase_bill"])
-            && !empty($_POST["amount_bill"])
             && !empty($_POST["payment"])
             && !empty($_POST["payment_done"]))
             {
