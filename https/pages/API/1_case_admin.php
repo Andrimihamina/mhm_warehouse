@@ -13,7 +13,7 @@
     // PURCHASE
         $purchases = "../../Layout/Purchases/prospecting.php";
         $suppliers = "../../Layout/Purchases/suppliers.php";
-        $catalogs ="#";
+        $catalogs ="../../Layout/Purchases/catalogs.php";
         $proforma ="#";
         $mf ="#";
     // FLUX

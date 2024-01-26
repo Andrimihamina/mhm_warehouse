@@ -18,7 +18,7 @@
         </a>
         </li>
         <li>
-        <a href="#">
+        <a href="<?=$catalogs;?>">
             <i class="bi bi-circle"></i><span>Catalogs</span>
         </a>
         </li>
