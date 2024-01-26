@@ -15,12 +15,12 @@
     // QUANTITY
       require_once ("../../php/body/purchases/prospectings/prospectings.php");
     // ITEMS
-      require_once ("items/medicals/medicals.php");
-      require_once ("items/logistics/logistics.php");
-      require_once ("items/technicals/technicals.php");
-      require_once ("items/itc/itc.php");
-      require_once ("items/foods/foods.php");
-      require_once ("items/real_estate/real_estate.php");
+      require_once ("items_cat/medicals/medicals.php");
+      require_once ("items_cat/logistics/logistics.php");
+      require_once ("items_cat/technicals/technicals.php");
+      require_once ("items_cat/itc/itc.php");
+      require_once ("items_cat/foods/foods.php");
+      require_once ("items_cat/real_estate/real_estate.php");
     ?>
   </div>
 </div>
