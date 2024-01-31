@@ -9,7 +9,7 @@
         <thead>
             <tr>
                 <th scope="col">ID</th>
-                <th scope="col">Generic Name</th>
+                <th scope="col">Trade name</th>
                 <th scope="col">Descriptions</th>
                 <th scope="col">Form</th>
                 <th scope="col">Applications</th>

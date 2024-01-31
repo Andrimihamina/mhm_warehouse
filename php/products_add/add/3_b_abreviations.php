@@ -9,7 +9,7 @@ require_once ("../../sql/functions/products_add/abreviations.php");
 if($NBR_abreviations > 0){$NBR_abrev = $NBR_abreviations + 1;}else{ $NBR_abrev = 1;}
 
 // NUMBER OF CHARACTERS
-$NBR_char = strlen($NBR_abreviations);
+$NBR_char = strlen($NBR_abrev);
 switch($NBR_char){
     case 3 :
         $NBR_chars = "-";
@@ -20,8 +20,6 @@ switch($NBR_char){
     case 1 :
         $NBR_chars = "-00";
         break;
-
-
 } 
 
 // COMPULATION

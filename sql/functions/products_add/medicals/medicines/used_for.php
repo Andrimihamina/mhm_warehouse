@@ -13,7 +13,8 @@ $sql_medicine_classification= "INSERT INTO `medicine_classification`
 (`id`, `id_med`,  `med_affiche_classification`, `classification_0`, `classification_1`, `classification_2`) 
 VALUES 
 (NULL, '$medicine_id', '$classification', '$classification_0', '$classification_1', '$classification_2')";
-
+ 
 $query_medicine_classificaiton = $db->prepare($sql_medicine_classification);
+
 $query_medicine_classificaiton->execute();
 ?>
