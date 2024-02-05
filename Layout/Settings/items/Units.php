@@ -10,6 +10,7 @@
           <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="../../Layout/Settings/gauzes.php"><div class="fw-bold">Gauzes</div></a></div></li>
           <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="../../Layout/Settings/measurs.php"><div class="fw-bold">Measurements</div></a></div></li>
           <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="../../Layout/Settings/sizes.php"><div class="fw-bold">Sizes</div></a></div></li>
+          <li class="list-group-item d-flex justify-content-between align-items-start"><div class="ms-2 me-auto"><a href="../../Layout/Settings/cons_form.php"><div class="fw-bold">Forms</div></a></div></li>
         </ol>
     </div>
   </div>
