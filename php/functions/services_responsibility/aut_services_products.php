@@ -341,5 +341,9 @@ switch($services){
         // NOT MEDICAL STORAGE
         $service_name = "no_medical_storage";
         break;
+    case 86 :
+        // NOT MEDICAL STORAGE
+        $service_name = "outpatients_pediatric";
+        break;
     }
 ?> 
